@@ -1,0 +1,12 @@
+{
+  "tokenPrice": 0,
+  "tokenPriceUpdatedAt": 0,
+  "minimumInvestment": 100000,
+  "metrics": {
+    "annualizedReturn": {
+      "value": 0.087,
+      "unit": "percent",
+      "directional": true
+    }
+  }
+}
