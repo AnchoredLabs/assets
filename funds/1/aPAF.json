@@ -4,16 +4,27 @@
   "minimumInvestment": 100000,
   "subscriptionWindow": {
     "start": 1759276800000,
-    "end": 1768435200000
+    "end": 1768435200000,
+    "frequency": "Monthly",
+    "windowDays": 7,
+    "mintFeeRate": 0.003
   },
+  "subscribeCurrencies": [
+    {
+      "value": "USDC",
+      "enabled": true
+    },
+    {
+      "value": "USDT",
+      "enabled": false
+    }
+  ],
   "redemptionTerms": {
-    "frequency": "Quarterly",
     "nextRedemptionDate": 1782777600000,
     "applicationDeadline": 1776729600000,
-    "noticePeriod": "95 calendar days before redemption date",
-    "lockUpPeriod": "1 year from subscription (soft lock)",
-    "earlyRedemptionFee": "5% of redemption amount",
-    "redemptionGate": "25% fund-level per quarter"
+    "frequency": "Quarterly",
+    "noticeDays": 95,
+    "earlyRedemptionFeeRate": 0.05
   },
   "redemptionFlow": {
     "estimatedUsdcPayout": {
@@ -25,8 +36,7 @@
       "title": "Early Redemption",
       "description": "Your lock-up expires February 1, 2027. Redeeming now incurs a 5% fee (~50,601.46 USDC)."
     },
-    "submittedDate": 1773100800000,
-    "estimatedNetPayout": "~961,427.67 USDC"
+    "submittedDate": 1773100800000
   },
   "priceHistory": [
     {
@@ -179,18 +189,6 @@
     }
   },
   "overview": "Antarctica Global Fund PLC (AGF) is a multi-strategy, multi-manager portfolio designed to invest and actively allocate capital to a number of carefully chosen established and proven hedge fund managers. The portfolio is diversified and composed of 11 holdings within a number of strategies including: Multi-Strategy, Multi Strategy / Macro, Equity Long/Short, Fixed Income Arbitrage, and Statistical Arbitrage. EU AIFMD Compliant. AGF offers the opportunity to invest in both EUR and USD Share Classes. Accessed via the Antarctica Alpha Access Portfolio SPC (AAAP).",
-  "overviewStats": [
-    {
-      "label": "Subscription",
-      "primary": "Monthly",
-      "secondary": "7-day subscription window before each cutoff"
-    },
-    {
-      "label": "Redemption",
-      "primary": "Quarterly",
-      "secondary": "95-day notice required"
-    }
-  ],
   "keyDates": [
     {
       "label": "Subscription cutoff",
