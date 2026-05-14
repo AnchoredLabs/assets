@@ -1,6 +1,4 @@
 {
-  "tokenPrice": 0,
-  "tokenPriceUpdatedAt": 0,
   "minimumInvestment": 100000,
   "metrics": {
     "annualizedReturn": {

@@ -5,9 +5,7 @@
   "subscriptionWindow": {
     "start": 1759276800000,
     "end": 1768435200000,
-    "frequency": "Monthly",
-    "windowDays": 7,
-    "mintFeeRate": 0.003
+    "frequency": "Monthly"
   },
   "subscribeCurrencies": [
     {
@@ -23,7 +21,6 @@
     "nextRedemptionDate": 1782777600000,
     "applicationDeadline": 1776729600000,
     "frequency": "Quarterly",
-    "noticeDays": 95,
     "earlyRedemptionFeeRate": 0.05
   },
   "redemptionFlow": {
@@ -34,9 +31,8 @@
     "timelineNote": "Redemptions are processed quarterly. You can cancel your request anytime before the application deadline.",
     "earlyRedemptionWarning": {
       "title": "Early Redemption",
-      "description": "Your lock-up expires February 1, 2027. Redeeming now incurs a 5% fee (~50,601.46 USDC)."
-    },
-    "submittedDate": 1773100800000
+      "lockupEndsAt": 1801440000000
+    }
   },
   "priceHistory": [
     {
@@ -659,5 +655,43 @@
     "remainingCount": 10,
     "remainingAllocation": 0.389,
     "disclaimer": "Allocation data sourced from Antarctica Asset Management. Allocations are as of the last reported month-end and are subject to change without notice."
-  }
+  },
+  "documents": [
+    {
+      "kind": "fact-sheet",
+      "title": "Fund Fact Sheet",
+      "meta": "PDF • Updated Mar 2026",
+      "fileUrl": ""
+    },
+    {
+      "kind": "offering-memorandum",
+      "title": "Offering Memorandum",
+      "meta": "PDF • Legal Document",
+      "fileUrl": ""
+    },
+    {
+      "kind": "monthly-report",
+      "title": "Monthly Performance Report",
+      "meta": "PDF • Mar 2026",
+      "fileUrl": ""
+    },
+    {
+      "kind": "subscription-agreement",
+      "title": "Subscription Agreement",
+      "meta": "PDF",
+      "fileUrl": ""
+    },
+    {
+      "kind": "risk-disclosures",
+      "title": "Risk Disclosures",
+      "meta": "PDF • Important information",
+      "fileUrl": ""
+    },
+    {
+      "kind": "audit-report",
+      "title": "Smart Contract Audit Report",
+      "meta": "PDF • Sherlock",
+      "fileUrl": ""
+    }
+  ]
 }
