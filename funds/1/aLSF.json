@@ -1,10 +1,16 @@
 {
+  "ticker": "aLSF",
+  "abbreviation": "LSF",
+  "name": "Anchored Liquid Strategies Fund",
+  "category": "Equity L/S · AI & Tech",
+  "description": "Long/short US equities focused on AI and technology.",
+  "badgeColor": "#1c7db1",
   "tokenPrice": 1247.83,
   "tokenPriceUpdatedAt": 1772323200000,
-  "minimumInvestment": 100000,
+  "minimumInvestment": 100,
   "subscriptionWindow": {
-    "start": 1759276800000,
-    "end": 1768435200000,
+    "start": 0,
+    "end": 1786579200000,
     "frequency": "Monthly"
   },
   "subscribeCurrencies": [
@@ -14,7 +20,7 @@
     },
     {
       "value": "USDT",
-      "enabled": false
+      "enabled": true
     }
   ],
   "redemptionTerms": {

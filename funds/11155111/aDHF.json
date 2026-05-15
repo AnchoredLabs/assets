@@ -1,10 +1,16 @@
 {
+  "ticker": "aDHF",
+  "abbreviation": "DHF",
+  "name": "Anchored Diversified Hedge Fund",
+  "category": "Multi-Strategy Hedge Fund",
+  "description": "Multi-manager fund of 11 hedge funds — steady returns with ultra-low volatility.",
+  "badgeColor": "#47ba9b",
   "tokenPrice": 1247.83,
   "tokenPriceUpdatedAt": 1772323200000,
-  "minimumInvestment": 100000,
+  "minimumInvestment": 100000000,
   "subscriptionWindow": {
-    "start": 1772323200000,
-    "end": 1778803200000,
+    "start": 0,
+    "end": 1786579200000,
     "frequency": "Monthly"
   },
   "subscribeCurrencies": [
@@ -14,7 +20,7 @@
     },
     {
       "value": "USDT",
-      "enabled": false
+      "enabled": true
     }
   ],
   "redemptionTerms": {

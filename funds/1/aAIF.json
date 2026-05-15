@@ -1,10 +1,16 @@
 {
+  "ticker": "aAIF",
+  "abbreviation": "AIF",
+  "name": "Anchored AI Strategies Fund",
+  "category": "Asia Multi-Strategy",
+  "description": "Multi-manager fund of 11 hedge funds — steady returns with ultra-low volatility.",
+  "badgeColor": "#ce5d28",
   "tokenPrice": 1247.83,
   "tokenPriceUpdatedAt": 1772323200000,
-  "minimumInvestment": 100000,
+  "minimumInvestment": 100,
   "subscriptionWindow": {
-    "start": 1759276800000,
-    "end": 1768435200000,
+    "start": 0,
+    "end": 1786579200000,
     "frequency": "Monthly"
   },
   "subscribeCurrencies": [
@@ -14,7 +20,7 @@
     },
     {
       "value": "USDT",
-      "enabled": false
+      "enabled": true
     }
   ],
   "redemptionTerms": {
@@ -150,38 +156,9 @@
   ],
   "metrics": {
     "annualizedReturn": {
-      "value": 0.0991,
+      "value": 0.087,
       "unit": "percent",
       "directional": true
-    },
-    "volatility": {
-      "value": 0.0314,
-      "unit": "percent"
-    },
-    "sharpeRatio": {
-      "value": 2.17
-    },
-    "sortinoRatio": {
-      "value": 4.52
-    },
-    "maxDrawdown": {
-      "value": -0.0119,
-      "unit": "percent",
-      "directional": true
-    },
-    "bestMonth": {
-      "value": 0.0373,
-      "unit": "percent",
-      "directional": true
-    },
-    "worstMonth": {
-      "value": -0.0161,
-      "unit": "percent",
-      "directional": true
-    },
-    "positiveMonthsRatio": {
-      "value": 0.932,
-      "unit": "percent"
     }
   },
   "overview": "Antarctica Global Fund PLC (AGF) is a multi-strategy, multi-manager portfolio designed to invest and actively allocate capital to a number of carefully chosen established and proven hedge fund managers. The portfolio is diversified and composed of 11 holdings within a number of strategies including: Multi-Strategy, Multi Strategy / Macro, Equity Long/Short, Fixed Income Arbitrage, and Statistical Arbitrage. EU AIFMD Compliant. AGF offers the opportunity to invest in both EUR and USD Share Classes. Accessed via the Antarctica Alpha Access Portfolio SPC (AAAP).",
@@ -215,7 +192,7 @@
       },
       {
         "label": "Fund Class",
-        "value": "AAAP DHF Fund — Class A"
+        "value": "AAAP AIF Fund — Class A"
       },
       {
         "label": "Access Vehicle",
@@ -319,7 +296,7 @@
   "growthChart": {
     "title": "Hypothetical Growth of $1,000",
     "subtitle": "April 2016 - April 2026. Assumes $1,000 invested at inception with all dividends reinvested.",
-    "disclaimer": "Performance prior to aDHF token launch reflects the underlying Antarctica Global Fund. Past performance is not indicative of future results.",
+    "disclaimer": "Performance prior to aAIF token launch reflects the underlying Antarctica Global Fund. Past performance is not indicative of future results.",
     "startYear": 2016,
     "startMonth": 4,
     "baseAmount": 1000,
@@ -530,7 +507,7 @@
       }
     ],
     "benchmarks": {
-      "selfHeader": "aPAF",
+      "selfHeader": "aAIF",
       "competitors": [
         {
           "header": "HFRI FoF*",
@@ -582,7 +559,7 @@
         },
         {
           "key": "correlation",
-          "label": "Correlation to aPAF",
+          "label": "Correlation to aAIF",
           "selfValue": 1
         }
       ]
