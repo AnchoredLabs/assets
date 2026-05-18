@@ -5,6 +5,7 @@
   "category": "Multi-Strategy Hedge Fund",
   "description": "Multi-manager fund of 11 hedge funds — steady returns with ultra-low volatility.",
   "badgeColor": "#47ba9b",
+  "heroImage": "/funds/aDHF.jpg",
   "tokenPrice": 1247.83,
   "tokenPriceUpdatedAt": 1772323200000,
   "minimumInvestment": 100000000,
@@ -289,37 +290,322 @@
       }
     ]
   },
-  "fundInformationNote": "Redemption requests may also be affected by redemption restrictions imposed by the Underlying Fund. Please refer to the Fund Supplement for details.",
   "monthlyReturns": [
     {
+      "year": 2026,
+      "months": [
+        {
+          "v": 0.0143
+        },
+        {
+          "v": 0.0073
+        },
+        {
+          "v": -0.0155,
+          "s": "estimated"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "ytd": {
+        "v": 0.0058,
+        "s": "estimated"
+      }
+    },
+    {
       "year": 2025,
-      "months": [0.0015, -0.0495, -0.0453, 0.0148, 0.0506, 0.059, 0.0705, 0.0121, 0.0537, 0.0923, -0.0115, -0.0348],
-      "ytd": 0.2209
+      "months": [
+        {
+          "v": 0.0015
+        },
+        {
+          "v": -0.0495
+        },
+        {
+          "v": -0.0453
+        },
+        {
+          "v": 0.0148
+        },
+        {
+          "v": 0.0506
+        },
+        {
+          "v": 0.059
+        },
+        {
+          "v": 0.0705
+        },
+        {
+          "v": 0.0121
+        },
+        {
+          "v": 0.0537
+        },
+        {
+          "v": 0.0923
+        },
+        {
+          "v": -0.0115
+        },
+        {
+          "v": -0.0348
+        }
+      ],
+      "ytd": {
+        "v": 0.2209
+      }
     },
     {
       "year": 2024,
-      "months": [0.0244, 0.0384, 0.0194, -0.0216, 0.0364, 0.0784, -0.0226, 0.0194, 0.0054, 0.0308, 0.0486, 0.0441],
-      "ytd": 0.3408
+      "months": [
+        {
+          "v": 0.0244
+        },
+        {
+          "v": 0.0384
+        },
+        {
+          "v": 0.0194
+        },
+        {
+          "v": -0.0216
+        },
+        {
+          "v": 0.0364
+        },
+        {
+          "v": 0.0784
+        },
+        {
+          "v": -0.0226
+        },
+        {
+          "v": 0.0194
+        },
+        {
+          "v": 0.0054
+        },
+        {
+          "v": 0.0308
+        },
+        {
+          "v": 0.0486
+        },
+        {
+          "v": 0.0441
+        }
+      ],
+      "ytd": {
+        "v": 0.3408
+      }
     },
     {
       "year": 2023,
-      "months": [0.0414, -0.0226, 0.0564, 0.0024, 0.0474, 0.0094, -0.0006, 0.0174, -0.0156, 0.0124, 0.0584, 0.0384],
-      "ytd": 0.2694
+      "months": [
+        {
+          "v": 0.0414,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0226,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0564,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0024,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0474,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0094,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0006
+        },
+        {
+          "v": 0.0174
+        },
+        {
+          "v": -0.0156
+        },
+        {
+          "v": 0.0124
+        },
+        {
+          "v": 0.0584
+        },
+        {
+          "v": 0.0384
+        }
+      ],
+      "ytd": {
+        "v": 0.2694
+      }
     },
     {
       "year": 2022,
-      "months": [-0.0616, -0.0236, 0.0474, -0.0396, 0.0034, -0.0306, 0.0814, 0.0104, -0.0386, 0.0164, 0.0594, -0.0306],
-      "ytd": -0.0168
+      "months": [
+        {
+          "v": -0.0616,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0236,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0474,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0396,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0034,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0306,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0814,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0104,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0386,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0164,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0594,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0306,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": -0.0168,
+        "s": "simulated"
+      }
     },
     {
       "year": 2021,
-      "months": [0.0004, 0.0374, 0.0044, -0.0176, 0.0094, 0.0124, 0.0224, 0.0324, -0.0026, 0.0514, 0.0604, 0.0524],
-      "ytd": 0.2929
+      "months": [
+        {
+          "v": 0.0004,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0374,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0044,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0176,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0094,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0124,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0224,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0324,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0026,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0514,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0604,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0524,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": 0.2929,
+        "s": "simulated"
+      }
     },
     {
       "year": 2020,
-      "months": [null, null, null, null, null, null, null, 0.0284, -0.0156, -0.0076, 0.0754, 0.0454],
-      "ytd": 0.1296
+      "months": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "v": 0.0284,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0156,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0076,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0754,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0454,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": 0.1296,
+        "s": "simulated"
+      }
     }
   ],
   "growthChart": {
@@ -505,7 +791,7 @@
       },
       {
         "key": "volatility",
-        "label": "Volatility",
+        "label": "Annualized Volatility",
         "dotted": true
       },
       {
@@ -524,11 +810,11 @@
       },
       {
         "key": "bestMonth",
-        "label": "Best Month"
+        "label": "Largest Win"
       },
       {
         "key": "worstMonth",
-        "label": "Worst Month"
+        "label": "Largest Loss"
       },
       {
         "key": "positiveMonthsRatio",
@@ -576,7 +862,7 @@
         },
         {
           "key": "volatility",
-          "label": "Volatility"
+          "label": "Annualized Volatility"
         },
         {
           "key": "sharpeRatio",
@@ -593,10 +879,10 @@
         }
       ]
     },
-    "benchmarkDisclaimer": "*HFRI FoF = HFRI Fund of Funds Composite Index. MSCI = MSCI World Index. Barclays = Barclays U.S. Aggregate Bond Index. Benchmark data sourced from Antarctica Asset Management factsheet.",
+    "benchmarkDisclaimer": "*HFRI FoF = HFRI Fund of Funds Composite Index. MSCI = MSCI World Index. Barclays = Barclays U.S. Aggregate Bond Index.",
     "chartDisclaimer": "Fund performance information (including data and charts) is calculated based on the net asset value (NAV) to NAV prices of respective funds, with dividends reinvested.",
-    "monthlyReturnsDisclaimer": "Last updated: 07-04-2026. From Apr 2016 to Jun 2023, performance is simulated based on hypothetical monthly performance of current portfolio funds less management fees (75bps p.a.) and operational costs (25bps p.a.). From Jul 2023 to present, actual performance of Class A Shares.",
-    "monthlyReturnsDisclaimer2": "Past performance is not a guide to future performance. Performance shown net of underlying fund fees."
+    "monthlyReturnsLegend": "Gray = Simulated Net Return | Normal = Actual Net Return | * = Estimated Net Return",
+    "monthlyReturnsDisclaimer": "The figures above represent past performance. Past performance is not a reliable indicator of future results."
   },
   "allocations": {
     "asOf": 1767225600000,
@@ -660,7 +946,7 @@
     ],
     "remainingCount": 10,
     "remainingAllocation": 0.389,
-    "disclaimer": "Allocation data sourced from Antarctica Asset Management. Allocations are as of the last reported month-end and are subject to change without notice."
+    "disclaimer": "Allocations are as of the last reported month-end and are subject to change without notice."
   },
   "documents": [
     {
@@ -670,20 +956,8 @@
       "fileUrl": ""
     },
     {
-      "kind": "offering-memorandum",
-      "title": "Offering Memorandum",
-      "meta": "PDF • Legal Document",
-      "fileUrl": ""
-    },
-    {
-      "kind": "monthly-report",
-      "title": "Monthly Performance Report",
-      "meta": "PDF • Mar 2026",
-      "fileUrl": ""
-    },
-    {
       "kind": "subscription-agreement",
-      "title": "Subscription Agreement",
+      "title": "Master Minting Agreement",
       "meta": "PDF",
       "fileUrl": ""
     },
