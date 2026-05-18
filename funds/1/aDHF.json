@@ -1,0 +1,977 @@
+{
+  "ticker": "aDHF",
+  "abbreviation": "DHF",
+  "name": "Anchored Diversified Hedge Fund",
+  "category": "Multi-Strategy Hedge Fund",
+  "description": "Multi-manager fund of 11 hedge funds — steady returns with ultra-low volatility.",
+  "badgeColor": "#47ba9b",
+  "heroImage": "/funds/aDHF.jpg",
+  "tokenPrice": 1247.83,
+  "tokenPriceUpdatedAt": 1772323200000,
+  "minimumInvestment": 100,
+  "subscriptionWindow": {
+    "start": 0,
+    "end": 1786579200000,
+    "frequency": "Monthly"
+  },
+  "subscribeCurrencies": [
+    {
+      "value": "USDC",
+      "enabled": true
+    },
+    {
+      "value": "USDT",
+      "enabled": true
+    }
+  ],
+  "redemptionTerms": {
+    "nextRedemptionDate": 1782777600000,
+    "applicationDeadline": 1776729600000,
+    "frequency": "Quarterly",
+    "earlyRedemptionFeeRate": 0.05
+  },
+  "redemptionFlow": {
+    "estimatedUsdcPayout": {
+      "date": 1783036800000,
+      "approximate": true
+    },
+    "timelineNote": "Redemptions are processed quarterly. You can cancel your request anytime before the application deadline.",
+    "earlyRedemptionWarning": {
+      "title": "Early Redemption",
+      "lockupEndsAt": 1801440000000
+    }
+  },
+  "priceHistory": [
+    {
+      "date": 1767744000000,
+      "price": 1112
+    },
+    {
+      "date": 1768003200000,
+      "price": 1126
+    },
+    {
+      "date": 1768348800000,
+      "price": 1121
+    },
+    {
+      "date": 1768608000000,
+      "price": 1140
+    },
+    {
+      "date": 1768867200000,
+      "price": 1138
+    },
+    {
+      "date": 1769212800000,
+      "price": 1185
+    },
+    {
+      "date": 1769472000000,
+      "price": 1172
+    },
+    {
+      "date": 1769731200000,
+      "price": 1163
+    },
+    {
+      "date": 1769990400000,
+      "price": 1158
+    },
+    {
+      "date": 1770336000000,
+      "price": 1208
+    },
+    {
+      "date": 1770595200000,
+      "price": 1248
+    },
+    {
+      "date": 1770854400000,
+      "price": 1235
+    },
+    {
+      "date": 1771200000000,
+      "price": 1244
+    },
+    {
+      "date": 1771459200000,
+      "price": 1266
+    },
+    {
+      "date": 1771718400000,
+      "price": 1272
+    },
+    {
+      "date": 1771977600000,
+      "price": 1264
+    },
+    {
+      "date": 1772323200000,
+      "price": 1218
+    },
+    {
+      "date": 1772582400000,
+      "price": 1206
+    },
+    {
+      "date": 1772841600000,
+      "price": 1215
+    },
+    {
+      "date": 1773187200000,
+      "price": 1242
+    },
+    {
+      "date": 1773446400000,
+      "price": 1227
+    },
+    {
+      "date": 1773705600000,
+      "price": 1218
+    },
+    {
+      "date": 1774051200000,
+      "price": 1213
+    },
+    {
+      "date": 1774310400000,
+      "price": 1222
+    },
+    {
+      "date": 1774569600000,
+      "price": 1216
+    },
+    {
+      "date": 1774828800000,
+      "price": 1251
+    },
+    {
+      "date": 1775174400000,
+      "price": 1244
+    },
+    {
+      "date": 1775433600000,
+      "price": 1221
+    }
+  ],
+  "metrics": {
+    "annualizedReturn": {
+      "value": 0.0991,
+      "unit": "percent",
+      "directional": true
+    },
+    "volatility": {
+      "value": 0.0314,
+      "unit": "percent"
+    },
+    "sharpeRatio": {
+      "value": 2.17
+    },
+    "sortinoRatio": {
+      "value": 4.52
+    },
+    "maxDrawdown": {
+      "value": -0.0119,
+      "unit": "percent",
+      "directional": true
+    },
+    "bestMonth": {
+      "value": 0.0373,
+      "unit": "percent",
+      "directional": true
+    },
+    "worstMonth": {
+      "value": -0.0161,
+      "unit": "percent",
+      "directional": true
+    },
+    "positiveMonthsRatio": {
+      "value": 0.932,
+      "unit": "percent"
+    }
+  },
+  "overview": "Antarctica Global Fund PLC (AGF) is a multi-strategy, multi-manager portfolio designed to invest and actively allocate capital to a number of carefully chosen established and proven hedge fund managers. The portfolio is diversified and composed of 11 holdings within a number of strategies including: Multi-Strategy, Multi Strategy / Macro, Equity Long/Short, Fixed Income Arbitrage, and Statistical Arbitrage. EU AIFMD Compliant. AGF offers the opportunity to invest in both EUR and USD Share Classes. Accessed via the Antarctica Alpha Access Portfolio SPC (AAAP).",
+  "keyDates": [
+    {
+      "label": "Subscription cutoff",
+      "date": 1774396800000,
+      "description": "Place your order before this date"
+    },
+    {
+      "label": "Est. Token mint",
+      "date": 1776211200000,
+      "approximate": true,
+      "description": "Estimated based on fund's monthly cycle"
+    }
+  ],
+  "keyDatesNote": "Dates shown are indicative. Actual settlement depends on the fund's dealing calendar.",
+  "fundInformation": {
+    "header": {
+      "label": "Underlying Fund",
+      "value": "Antarctica Global Fund PLC — EUR Class A"
+    },
+    "rows": [
+      {
+        "label": "Fund Manager",
+        "value": "Antarctica Asset Management Ltd."
+      },
+      {
+        "label": "Strategy",
+        "value": "Multi-Strategy Fund of Hedge Funds"
+      },
+      {
+        "label": "Fund Class",
+        "value": "AAAP DHF Fund — Class A"
+      },
+      {
+        "label": "Access Vehicle",
+        "value": "Antarctica Alpha Access Portfolio SPC Ltd. (AAAP)"
+      },
+      {
+        "label": "Investment Manager",
+        "value": "Antarctica Asset Management Ltd. (AAM)"
+      },
+      {
+        "label": "Fund Administrator",
+        "value": "Citco Fund Services"
+      },
+      {
+        "label": "Domicile",
+        "value": "British Virgin Islands"
+      },
+      {
+        "label": "Inception",
+        "value": "April 2016"
+      },
+      {
+        "label": "Token Standard",
+        "value": "ERC-1404"
+      },
+      {
+        "label": "Minimum Investment",
+        "valueRef": "minimumInvestment"
+      },
+      {
+        "label": "Subscription",
+        "value": "Monthly (deadline ~5 business days before NAV date)"
+      },
+      {
+        "label": "Redemption",
+        "value": "Quarterly (95 calendar days notice) †"
+      },
+      {
+        "label": "Lock-up",
+        "value": "1-year soft lock (5% early redemption penalty)"
+      },
+      {
+        "label": "Gate",
+        "value": "25% fund-level"
+      },
+      {
+        "label": "NAV Frequency",
+        "value": "Monthly"
+      },
+      {
+        "label": "Underlying Fund Mgmt Fee",
+        "value": "1.5% p.a."
+      },
+      {
+        "label": "Performance Fee",
+        "value": "20% (with high-water mark)"
+      },
+      {
+        "label": "AAAP Management Fee",
+        "value": "0.55% p.a."
+      },
+      {
+        "label": "Anchored Management Fee",
+        "value": "1.0% p.a. (included in token price)"
+      }
+    ]
+  },
+  "monthlyReturns": [
+    {
+      "year": 2026,
+      "months": [
+        {
+          "v": 0.0143
+        },
+        {
+          "v": 0.0073
+        },
+        {
+          "v": -0.0155,
+          "s": "estimated"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "ytd": {
+        "v": 0.0058,
+        "s": "estimated"
+      }
+    },
+    {
+      "year": 2025,
+      "months": [
+        {
+          "v": 0.0015
+        },
+        {
+          "v": -0.0495
+        },
+        {
+          "v": -0.0453
+        },
+        {
+          "v": 0.0148
+        },
+        {
+          "v": 0.0506
+        },
+        {
+          "v": 0.059
+        },
+        {
+          "v": 0.0705
+        },
+        {
+          "v": 0.0121
+        },
+        {
+          "v": 0.0537
+        },
+        {
+          "v": 0.0923
+        },
+        {
+          "v": -0.0115
+        },
+        {
+          "v": -0.0348
+        }
+      ],
+      "ytd": {
+        "v": 0.2209
+      }
+    },
+    {
+      "year": 2024,
+      "months": [
+        {
+          "v": 0.0244
+        },
+        {
+          "v": 0.0384
+        },
+        {
+          "v": 0.0194
+        },
+        {
+          "v": -0.0216
+        },
+        {
+          "v": 0.0364
+        },
+        {
+          "v": 0.0784
+        },
+        {
+          "v": -0.0226
+        },
+        {
+          "v": 0.0194
+        },
+        {
+          "v": 0.0054
+        },
+        {
+          "v": 0.0308
+        },
+        {
+          "v": 0.0486
+        },
+        {
+          "v": 0.0441
+        }
+      ],
+      "ytd": {
+        "v": 0.3408
+      }
+    },
+    {
+      "year": 2023,
+      "months": [
+        {
+          "v": 0.0414,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0226,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0564,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0024,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0474,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0094,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0006
+        },
+        {
+          "v": 0.0174
+        },
+        {
+          "v": -0.0156
+        },
+        {
+          "v": 0.0124
+        },
+        {
+          "v": 0.0584
+        },
+        {
+          "v": 0.0384
+        }
+      ],
+      "ytd": {
+        "v": 0.2694
+      }
+    },
+    {
+      "year": 2022,
+      "months": [
+        {
+          "v": -0.0616,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0236,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0474,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0396,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0034,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0306,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0814,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0104,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0386,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0164,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0594,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0306,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": -0.0168,
+        "s": "simulated"
+      }
+    },
+    {
+      "year": 2021,
+      "months": [
+        {
+          "v": 0.0004,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0374,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0044,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0176,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0094,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0124,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0224,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0324,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0026,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0514,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0604,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0524,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": 0.2929,
+        "s": "simulated"
+      }
+    },
+    {
+      "year": 2020,
+      "months": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "v": 0.0284,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0156,
+          "s": "simulated"
+        },
+        {
+          "v": -0.0076,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0754,
+          "s": "simulated"
+        },
+        {
+          "v": 0.0454,
+          "s": "simulated"
+        }
+      ],
+      "ytd": {
+        "v": 0.1296,
+        "s": "simulated"
+      }
+    }
+  ],
+  "growthChart": {
+    "title": "Hypothetical Growth of $1,000",
+    "subtitle": "April 2016 - April 2026. Assumes $1,000 invested at inception with all dividends reinvested.",
+    "disclaimer": "Performance prior to aDHF token launch reflects the underlying Antarctica Global Fund. Past performance is not indicative of future results.",
+    "startYear": 2016,
+    "startMonth": 4,
+    "baseAmount": 1000,
+    "benchmarks": [
+      {
+        "name": "AFG Class A",
+        "color": "#E7C75C",
+        "lineWidth": 2.5,
+        "dashed": false,
+        "returns": [
+          0.0065, 0.0217, -0.0014, 0.0063, 0.0095, 0.0136, 0.002, 0.0159, 0.0088, 0.0091, 0.0075, 0.0091, 0.0018,
+          0.0082, -0.0027, 0.0145, 0.0119, 0.0078, 0.0187, -0.0011, -0.0025, 0.0373, -0.0069, 0.0008, 0.0116, 0.0237,
+          0.0048, 0.0087, 0.0155, 0.0064, -0.0134, -0.0094, -0.0007, 0.0278, 0.0065, 0.0121, 0.0077, 0.0107, 0.0277,
+          0.0087, 0.0136, -0.0158, 0.0117, 0.0083, 0.0128, 0.0016, 0.0164, 0.0214, 0.0215, 0.015, 0.0064, 0.0191,
+          0.0183, 0.0013, 0.0089, 0.019, 0.0314, -0.0142, 0.0237, 0.0088, 0.0103, -0.0006, -0.0078, 0.0009, 0.0068,
+          0.0146, 0.0001, 0.002, 0.0096, -0.0013, 0.0072, 0.0236, 0.0182, -0.0012, 0.0167, 0.0027, 0.0143, 0.0098,
+          0.0092, -0.0023, 0.0132, 0.0095, 0.0023, 0.0046, 0.0031, 0.0077, 0.0059, 0.0024, 0.0098, 0.0048, 0.0077,
+          0.0105, 0.0099, 0.0125, 0.0028, 0.0121, -0.0017, 0.0052, 0.0084, -0.0011, 0.008, 0.0035, 0.0076, 0.0178,
+          0.0118, 0.017, -0.0081, -0.0119, 0.0079, 0.0152, 0.0081, 0.0071, 0.0052, 0.0058, 0.0104, 0.0035, 0.0096,
+          0.0146, 0.0082, -0.0161, -0.0005
+        ]
+      },
+      {
+        "name": "MSCI World",
+        "color": "#5B8DEF",
+        "lineWidth": 1.2,
+        "dashed": true,
+        "returns": [
+          -0.0004, -0.0028, 0.0002, -0.0048, 0.0117, 0.0302, -0.0033, -0.0043, -0.0013, 0.0132, 0.0272, 0.0012, 0.0082,
+          -0.0018, 0.0062, 0.0142, -0.0038, 0.0222, 0.0092, 0.0162, 0.0052, 0.0482, 0.0332, -0.0268, 0.0002, 0.0142,
+          -0.0003, 0.0272, 0.0232, -0.0118, -0.0758, 0.0102, 0.0042, 0.0682, 0.0252, 0.0112, 0.0312, 0.0102, -0.0238,
+          0.0062, -0.0248, 0.0142, 0.0182, 0.0272, 0.0252, -0.0098, -0.0938, -0.1388, 0.1042, 0.0442, 0.0222, 0.0452,
+          0.0592, -0.0378, 0.0022, 0.1182, 0.0372, -0.0088, 0.0252, 0.0272, 0.0422, 0.0062, 0.0102, 0.0142, 0.0172,
+          -0.0468, 0.0482, 0.0152, 0.0372, -0.0548, -0.0318, 0.0212, -0.0158, -0.0048, -0.0718, -0.0738, 0.0342,
+          -0.0998, -0.0598, 0.0662, 0.0442, 0.0662, 0.0002, 0.0272, 0.0082, -0.0038, 0.0502, 0.0292, -0.0218, 0.0382,
+          -0.0058, 0.0892, 0.0422, 0.0082, 0.0392, 0.0292, -0.0028, 0.0382, 0.0192, 0.0122, 0.0202, -0.0058, -0.0248,
+          0.0432, 0.0252, 0.0312, 0.0082, -0.0118, -0.0048, -0.0088, 0.0242, -0.0098, 0.0212, -0.0258, 0.0002, 0.0352,
+          0.0222, 0.0252, -0.0138, -0.0488, 0.0151
+        ]
+      },
+      {
+        "name": "MSCI Europe",
+        "color": "#E06060",
+        "lineWidth": 1.2,
+        "dashed": true,
+        "returns": [
+          0.0165, -0.0385, 0.0395, 0.0005, -0.0055, 0.0495, -0.0145, -0.0065, -0.0035, -0.0075, 0.0275, -0.0145, 0.0235,
+          0.0165, 0.0005, 0.0025, -0.0035, 0.0005, 0.0005, 0.0005, -0.0235, 0.0185, 0.0345, -0.0315, -0.0055, 0.0295,
+          -0.0025, 0.0105, 0.0225, -0.0145, -0.0775, -0.0195, 0.0015, 0.0565, 0.0255, -0.0005, 0.0355, 0.0265, -0.0685,
+          0.0085, -0.0285, 0.0255, 0.0105, 0.0215, 0.0185, -0.0345, -0.0905, -0.1515, 0.0655, 0.0305, 0.0225, -0.0025,
+          0.0285, -0.0195, -0.0035, 0.1305, 0.0255, -0.0145, 0.0245, 0.0315, 0.0155, 0.0105, 0.0305, 0.0025, 0.0155,
+          -0.0315, 0.0395, 0.0015, 0.0495, -0.0425, -0.0335, 0.0025, -0.0005, 0.0035, -0.0785, -0.0695, 0.0405, -0.0655,
+          -0.0215, 0.0645, 0.0265, 0.0605, 0.0085, 0.0105, 0.0155, 0.0185, 0.0305, 0.0185, -0.0195, 0.0265, 0.0085,
+          0.0585, 0.0295, -0.0165, 0.0145, 0.0295, 0.0115, 0.0305, 0.0075, 0.0045, 0.0165, 0.0115, -0.0025, 0.0145,
+          -0.0005, 0.0435, 0.0015, -0.0205, -0.0065, -0.0235, 0.0275, -0.0045, 0.0175, -0.0195, -0.0025, 0.0145, 0.0005,
+          0.0515, -0.0095, 0.0289, -0.0135
+        ]
+      },
+      {
+        "name": "Barclays Bond",
+        "color": "#547E70",
+        "lineWidth": 1.2,
+        "dashed": true,
+        "returns": [
+          0.0028, 0.0006, -0.0001, 0.0064, -0.0023, 0.0084, 0.0034, -0.0068, 0.0032, 0.0019, 0.0071, -0.0053, 0.0012,
+          0.0072, -0.0003, 0.0042, 0.0076, -0.0043, -0.0011, 0.002, -0.0033, -0.0098, 0.0074, -0.0061, 0.0052, 0.0072,
+          -0.001, 0.0004, 0.0066, 0.006, -0.0083, 0.0062, -0.0044, 0.0122, 0.0012, -0.0016, 0.0059, 0.0122, -0.0023,
+          0.0024, 0.0042, 0.0062, -0.0013, -0.0018, 0.003, 0.0182, 0.0112, 0.0067, -0.0168, 0.0052, 0.0065, 0.0152,
+          -0.0079, -0.0048, 0.0072, 0.0097, -0.0023, -0.007, 0.0094, -0.0126, 0.0081, 0.0035, -0.0089, -0.001, -0.0018,
+          -0.0085, 0.0153, 0.0031, -0.0037, 0, -0.0103, -0.0276, 0.004, -0.004, -0.0155, 0.0027, -0.027, -0.043, 0.0034,
+          0.0366, -0.0044, 0.0308, -0.0011, 0.0074, 0.0042, -0.0114, 0.0023, -0.0033, 0.0067, -0.0245, -0.0029, 0.0444,
+          0.004, -0.0032, 0.0106, 0.0094, -0.0249, -0.0016, 0.0097, -0.0038, 0.0147, 0.053, -0.0251, 0.0112, -0.0089,
+          0.0055, -0.0021, 0.0006, 0.0004, -0.0098, 0.0105, -0.0018, 0.0074, -0.0146, -0.004, 0.0164, 0.0049, 0.0055,
+          0.0084, -0.0001, 0.0117
+        ]
+      },
+      {
+        "name": "S&P 500",
+        "color": "#9B59B6",
+        "lineWidth": 1.5,
+        "dashed": true,
+        "returns": [
+          0.0037, 0.0163, 0.0044, 0.0366, -0.0002, 0.0003, 0.0188, 0.0366, 0.0192, 0.0189, 0.0382, 0.0006, 0.0101,
+          0.0126, 0.0058, 0.0203, 0.0015, 0.0203, 0.0234, 0.0291, 0.0108, 0.0572, -0.0367, -0.0259, 0.0037, 0.0226,
+          0.0058, 0.037, 0.0319, 0.0053, -0.0684, 0.0189, -0.0908, 0.0794, 0.0307, 0.0189, 0.0403, -0.0648, 0.0699,
+          0.0141, -0.0171, 0.0182, 0.0214, 0.035, 0.0296, -0.0006, -0.0831, -0.1241, 0.1278, 0.0455, 0.0192, 0.0561,
+          0.0711, -0.0382, -0.0018, 0.1085, 0.0372, -0.0101, 0.0271, 0.0434, 0.0534, 0.0065, 0.0232, 0.0241, 0.03,
+          -0.0466, 0.0675, -0.0073, 0.0454, -0.056, -0.0304, 0.0368, -0.0878, 0.0012, -0.0828, 0.0919, -0.0414, -0.0936,
+          0.0803, 0.055, -0.0576, 0.0628, -0.0251, 0.0361, 0.0156, 0.0035, 0.0635, 0.0317, -0.0167, -0.0477, -0.0211,
+          0.0899, 0.0464, 0.0169, 0.0526, 0.0318, -0.041, 0.049, 0.0354, 0.0123, 0.0239, 0.0211, -0.0089, 0.0583,
+          -0.024, 0.0277, -0.0132, -0.0567, 0.0097, -0.0073, 0.0361, -0.0008, 0.0255, -0.0155, 0.0045, 0.0387, 0.026,
+          0.028, -0.012, -0.044, 0.0172
+        ]
+      },
+      {
+        "name": "Nasdaq",
+        "color": "#CE5D28",
+        "lineWidth": 1.5,
+        "dashed": true,
+        "returns": [
+          -0.0183, 0.0201, -0.0014, 0.0659, -0.0014, 0.0108, 0.0139, 0.0276, 0.0158, 0.0442, 0.0378, 0.0163, 0.0227,
+          0.0271, -0.0074, 0.042, 0.0171, 0.0084, 0.0361, 0.0251, 0.0058, 0.0746, 0.0092, -0.0268, 0.0016, 0.055,
+          0.0006, 0.0197, 0.0574, 0, -0.089, 0.0096, -0.0937, 0.0922, 0.0361, 0.0223, 0.0451, -0.0768, 0.0754, 0.0231,
+          -0.0205, 0.0056, 0.0378, 0.0467, 0.0361, 0.0206, -0.0652, -0.102, 0.1535, 0.0646, 0.0604, 0.064, 0.0983,
+          -0.0524, 0.0031, 0.1192, 0.0567, 0.0143, 0.0013, 0.0053, 0.0553, -0.0156, 0.0565, 0.0134, 0.0411, -0.0519,
+          0.0743, 0.0095, 0.0008, -0.0887, -0.0329, 0.0353, -0.1331, -0.0191, -0.0883, 0.1234, -0.0476, -0.1052, 0.0383,
+          0.0457, -0.0814, 0.108, -0.0093, 0.0677, 0.0015, 0.0584, 0.0661, 0.0393, -0.0206, -0.049, -0.0017, 0.1093,
+          0.0565, 0.012, 0.0624, 0.0134, -0.0431, 0.0701, 0.06, -0.0063, 0.0077, 0.0268, -0.0052, 0.0637, -0.0183,
+          0.019, -0.0383, -0.0823, 0.011, -0.0053, 0.0414, 0.0022, 0.0297, -0.0198, 0.0107, 0.0467, 0.0322, 0.0367,
+          -0.0163, -0.0538, 0.0173
+        ]
+      },
+      {
+        "name": "Dow Jones",
+        "color": "#59CBB6",
+        "lineWidth": 1.5,
+        "dashed": true,
+        "returns": [
+          0.0052, 0.007, 0.0087, 0.025, -0.002, -0.0005, 0.0224, 0.0553, 0.0331, 0.0057, 0.0468, -0.0069, 0.0131,
+          0.0035, 0.0165, 0.0251, 0.0028, 0.0215, 0.0443, 0.039, 0.018, 0.0576, -0.0434, -0.0358, 0.0027, 0.011,
+          -0.0059, 0.0474, 0.0219, 0.0191, -0.0512, 0.0172, -0.0876, 0.0718, 0.0348, 0.0007, 0.0258, -0.0667, 0.0716,
+          0.0102, -0.0164, 0.0181, 0.005, 0.0377, 0.0173, -0.0097, -0.0998, -0.1367, 0.111, 0.0438, 0.0171, 0.0246,
+          0.0775, -0.0216, -0.0044, 0.1186, 0.0327, -0.0198, 0.0318, 0.0638, 0.027, 0.0132, -0.0006, 0.0127, 0.0137,
+          -0.0415, 0.0557, -0.0373, 0.0576, -0.0336, -0.0344, 0.0222, -0.0487, 0.0002, -0.0639, 0.0668, -0.0411,
+          -0.0869, 0.1397, 0.0563, -0.004, 0.0273, -0.0408, 0.0183, 0.025, -0.0347, 0.0461, 0.0328, -0.0233, -0.0345,
+          -0.0125, 0.0837, 0.048, 0.0124, 0.0224, 0.021, -0.0509, 0.0236, 0.0141, 0.0447, 0.014, 0.0186, -0.0111,
+          0.0735, -0.0513, 0.0471, 0.0101, -0.0408, 0.0118, -0.0018, 0.0377, -0.0048, 0.0157, -0.0143, -0.002, 0.0322,
+          0.0202, 0.0232, -0.0103, -0.0418, 0.0125
+        ]
+      }
+    ]
+  },
+  "performance": {
+    "keyReturns": [
+      {
+        "label": "MTD",
+        "value": -0.0348,
+        "unit": "percent",
+        "directional": true
+      },
+      {
+        "label": "YTD",
+        "value": 0.0006,
+        "unit": "percent",
+        "directional": true
+      },
+      {
+        "label": "1 Year",
+        "value": 0.0682,
+        "unit": "percent",
+        "directional": true
+      },
+      {
+        "label": "3 Years",
+        "value": 0.2759,
+        "unit": "percent",
+        "directional": true
+      },
+      {
+        "label": "5 Years",
+        "value": 0.5283,
+        "unit": "percent",
+        "directional": true
+      },
+      {
+        "label": "Since Inception",
+        "value": 1.5916,
+        "unit": "percent",
+        "directional": true
+      }
+    ],
+    "keyReturnsAsOf": 1772236800000,
+    "riskStatistics": [
+      {
+        "key": "annualizedReturn",
+        "label": "Annualized Return"
+      },
+      {
+        "key": "volatility",
+        "label": "Annualized Volatility",
+        "dotted": true
+      },
+      {
+        "key": "sharpeRatio",
+        "label": "Sharpe Ratio",
+        "dotted": true
+      },
+      {
+        "key": "sortinoRatio",
+        "label": "Sortino Ratio",
+        "dotted": true
+      },
+      {
+        "key": "maxDrawdown",
+        "label": "Max Drawdown"
+      },
+      {
+        "key": "bestMonth",
+        "label": "Largest Win"
+      },
+      {
+        "key": "worstMonth",
+        "label": "Largest Loss"
+      },
+      {
+        "key": "positiveMonthsRatio",
+        "label": "% Positive Months"
+      }
+    ],
+    "benchmarks": {
+      "selfHeader": "aDHF",
+      "competitors": [
+        {
+          "header": "HFRI FoF*",
+          "values": {
+            "annualizedReturn": 0.0372,
+            "volatility": 0.0512,
+            "sharpeRatio": 0.42,
+            "maxDrawdown": -0.0714,
+            "correlation": 0.47
+          }
+        },
+        {
+          "header": "MSCI World*",
+          "values": {
+            "annualizedReturn": 0.0987,
+            "volatility": 0.164,
+            "sharpeRatio": 0.51,
+            "maxDrawdown": -0.264,
+            "correlation": 0.18
+          }
+        },
+        {
+          "header": "Barclays Bond*",
+          "values": {
+            "annualizedReturn": 0.0112,
+            "volatility": 0.0364,
+            "sharpeRatio": -0.11,
+            "maxDrawdown": -0.1718,
+            "correlation": 0.05
+          }
+        }
+      ],
+      "rows": [
+        {
+          "key": "annualizedReturn",
+          "label": "Annualized Return"
+        },
+        {
+          "key": "volatility",
+          "label": "Annualized Volatility"
+        },
+        {
+          "key": "sharpeRatio",
+          "label": "Sharpe Ratio"
+        },
+        {
+          "key": "maxDrawdown",
+          "label": "Max Drawdown"
+        },
+        {
+          "key": "correlation",
+          "label": "Correlation to aDHF",
+          "selfValue": 1
+        }
+      ]
+    },
+    "benchmarkDisclaimer": "*HFRI FoF = HFRI Fund of Funds Composite Index. MSCI = MSCI World Index. Barclays = Barclays U.S. Aggregate Bond Index.",
+    "chartDisclaimer": "Fund performance information (including data and charts) is calculated based on the net asset value (NAV) to NAV prices of respective funds, with dividends reinvested.",
+    "monthlyReturnsLegend": "Gray = Simulated Net Return | Normal = Actual Net Return | * = Estimated Net Return",
+    "monthlyReturnsDisclaimer": "The figures above represent past performance. Past performance is not a reliable indicator of future results."
+  },
+  "allocations": {
+    "asOf": 1767225600000,
+    "strategies": [
+      {
+        "name": "Multi Strategy",
+        "holdings": 7,
+        "allocation": 0.6053,
+        "color": "#E7C75C"
+      },
+      {
+        "name": "Long/Short Equity",
+        "holdings": 4,
+        "allocation": 0.252,
+        "color": "#CE5D28"
+      },
+      {
+        "name": "Fixed Income Arbitrage",
+        "holdings": 1,
+        "allocation": 0.0701,
+        "color": "#59CBB6"
+      },
+      {
+        "name": "Global Macro",
+        "holdings": 3,
+        "allocation": 0.0506,
+        "color": "#E06060"
+      },
+      {
+        "name": "Multi-Strategy Macro",
+        "holdings": 1,
+        "allocation": 0.022,
+        "color": "#5B8DEF"
+      }
+    ],
+    "topHoldings": [
+      {
+        "name": "Millennium International, Ltd",
+        "allocation": 0.2027
+      },
+      {
+        "name": "Point72 Capital International (JPY)",
+        "allocation": 0.1612
+      },
+      {
+        "name": "Torus Feeder 3 Ltd - Half Vol",
+        "allocation": 0.071
+      },
+      {
+        "name": "LMR Alpha Rates Trading Fund",
+        "allocation": 0.0701
+      },
+      {
+        "name": "Jain Global Offshore Fund",
+        "allocation": 0.0576
+      },
+      {
+        "name": "Point72 Capital International (USD)",
+        "allocation": 0.0484
+      }
+    ],
+    "remainingCount": 10,
+    "remainingAllocation": 0.389,
+    "disclaimer": "Allocations are as of the last reported month-end and are subject to change without notice."
+  },
+  "documents": [
+    {
+      "kind": "fact-sheet",
+      "title": "Fund Fact Sheet",
+      "meta": "PDF • Updated Mar 2026",
+      "fileUrl": ""
+    },
+    {
+      "kind": "subscription-agreement",
+      "title": "Master Minting Agreement",
+      "meta": "PDF",
+      "fileUrl": ""
+    },
+    {
+      "kind": "risk-disclosures",
+      "title": "Risk Disclosures",
+      "meta": "PDF • Important information",
+      "fileUrl": ""
+    },
+    {
+      "kind": "audit-report",
+      "title": "Smart Contract Audit Report",
+      "meta": "PDF • Sherlock",
+      "fileUrl": ""
+    }
+  ]
+}
