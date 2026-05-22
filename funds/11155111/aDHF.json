@@ -21,12 +21,10 @@
     },
     {
       "value": "USDT",
-      "enabled": true
+      "enabled": false
     }
   ],
   "redemptionTerms": {
-    "nextRedemptionDate": 1782777600000,
-    "applicationDeadline": 1776729600000,
     "frequency": "Quarterly",
     "earlyRedemptionFeeRate": 0.05
   },
@@ -192,19 +190,6 @@
     }
   },
   "overview": "Antarctica Global Fund PLC (AGF) is a multi-strategy, multi-manager portfolio designed to invest and actively allocate capital to a number of carefully chosen established and proven hedge fund managers. The portfolio is diversified and composed of 11 holdings within a number of strategies including: Multi-Strategy, Multi Strategy / Macro, Equity Long/Short, Fixed Income Arbitrage, and Statistical Arbitrage. EU AIFMD Compliant. AGF offers the opportunity to invest in both EUR and USD Share Classes. Accessed via the Antarctica Alpha Access Portfolio SPC (AAAP).",
-  "keyDates": [
-    {
-      "label": "Subscription cutoff",
-      "date": 1774396800000,
-      "description": "Place your order before this date"
-    },
-    {
-      "label": "Est. Token mint",
-      "date": 1776211200000,
-      "approximate": true,
-      "description": "Estimated based on fund's monthly cycle"
-    }
-  ],
   "keyDatesNote": "Dates shown are indicative. Actual settlement depends on the fund's dealing calendar.",
   "fundInformation": {
     "header": {
@@ -219,10 +204,6 @@
       {
         "label": "Strategy",
         "value": "Multi-Strategy Fund of Hedge Funds"
-      },
-      {
-        "label": "Fund Class",
-        "value": "AAAP DHF Fund — Class A"
       },
       {
         "label": "Access Vehicle",
@@ -759,26 +740,8 @@
         "directional": true
       },
       {
-        "label": "1 Year",
+        "label": "Annualized",
         "value": 0.0682,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "3 Years",
-        "value": 0.2759,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "5 Years",
-        "value": 0.5283,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "Since Inception",
-        "value": 1.5916,
         "unit": "percent",
         "directional": true
       }
@@ -791,18 +754,15 @@
       },
       {
         "key": "volatility",
-        "label": "Annualized Volatility",
-        "dotted": true
+        "label": "Annualized Volatility"
       },
       {
         "key": "sharpeRatio",
-        "label": "Sharpe Ratio",
-        "dotted": true
+        "label": "Sharpe Ratio"
       },
       {
         "key": "sortinoRatio",
-        "label": "Sortino Ratio",
-        "dotted": true
+        "label": "Sortino Ratio"
       },
       {
         "key": "maxDrawdown",
@@ -825,57 +785,90 @@
       "selfHeader": "aDHF",
       "competitors": [
         {
-          "header": "HFRI FoF*",
-          "values": {
-            "annualizedReturn": 0.0372,
-            "volatility": 0.0512,
-            "sharpeRatio": 0.42,
-            "maxDrawdown": -0.0714,
-            "correlation": 0.47
-          }
+          "header": "HFRI FoF*"
         },
         {
-          "header": "MSCI World*",
-          "values": {
-            "annualizedReturn": 0.0987,
-            "volatility": 0.164,
-            "sharpeRatio": 0.51,
-            "maxDrawdown": -0.264,
-            "correlation": 0.18
-          }
+          "header": "MSCI World*"
         },
         {
-          "header": "Barclays Bond*",
-          "values": {
-            "annualizedReturn": 0.0112,
-            "volatility": 0.0364,
-            "sharpeRatio": -0.11,
-            "maxDrawdown": -0.1718,
-            "correlation": 0.05
-          }
+          "header": "Barclays Bond*"
         }
       ],
       "rows": [
         {
           "key": "annualizedReturn",
-          "label": "Annualized Return"
+          "label": "Annualized Return",
+          "periods": [
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.0372,
+                "MSCI World*": 0.0987,
+                "Barclays Bond*": 0.0112
+              }
+            }
+          ]
         },
         {
           "key": "volatility",
-          "label": "Annualized Volatility"
+          "label": "Annualized Volatility",
+          "periods": [
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.0512,
+                "MSCI World*": 0.164,
+                "Barclays Bond*": 0.0364
+              }
+            }
+          ]
         },
         {
           "key": "sharpeRatio",
-          "label": "Sharpe Ratio"
+          "label": "Sharpe Ratio",
+          "periods": [
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.42,
+                "MSCI World*": 0.51,
+                "Barclays Bond*": -0.11
+              }
+            }
+          ]
         },
         {
-          "key": "maxDrawdown",
-          "label": "Max Drawdown"
+          "key": "cumulativeDrawdown",
+          "label": "Cumulative Drawdown",
+          "periods": [
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": -0.0714,
+                "MSCI World*": -0.264,
+                "Barclays Bond*": -0.1718
+              }
+            }
+          ]
         },
         {
           "key": "correlation",
-          "label": "Correlation to aDHF",
-          "selfValue": 1
+          "label": "Correlation",
+          "periods": [
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.47,
+                "MSCI World*": 0.18,
+                "Barclays Bond*": 0.05
+              }
+            }
+          ]
         }
       ]
     },
@@ -946,20 +939,20 @@
     ],
     "remainingCount": 10,
     "remainingAllocation": 0.389,
-    "disclaimer": "Allocations are as of the last reported month-end and are subject to change without notice."
+    "disclaimer": "Allocations are as of the last reported month-end and are subject to change without notice.",
+    "kind": "strategy"
   },
   "documents": [
     {
       "kind": "fact-sheet",
       "title": "Fund Fact Sheet",
       "meta": "PDF • Updated Mar 2026",
-      "fileUrl": ""
+      "fileUrl": "/funds/aDHF_Fund_Factsheet_Apr2026.pdf"
     },
     {
       "kind": "subscription-agreement",
       "title": "Master Minting Agreement",
-      "meta": "PDF",
-      "fileUrl": ""
+      "meta": "PDF"
     },
     {
       "kind": "risk-disclosures",

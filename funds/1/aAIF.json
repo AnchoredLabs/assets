@@ -2,13 +2,13 @@
   "ticker": "aAIF",
   "abbreviation": "AIF",
   "name": "Anchored AI Strategies Fund",
-  "category": "Asia Multi-Strategy",
-  "description": "Multi-manager fund of 11 hedge funds — steady returns with ultra-low volatility.",
-  "badgeColor": "#ce5d28",
+  "category": "AI-Focused",
+  "description": "Concentrate long/short equity strategy focused on AI and semiconductor opportunities.",
+  "badgeColor": "#CE5D28",
   "heroImage": "/funds/aAIF.jpg",
-  "tokenPrice": 1247.83,
-  "tokenPriceUpdatedAt": 1772323200000,
-  "minimumInvestment": 100,
+  "tokenPrice": 149.66,
+  "tokenPriceUpdatedAt": 1777507200000,
+  "minimumInvestment": 100000,
   "subscriptionWindow": {
     "start": 0,
     "end": 1786579200000,
@@ -25,239 +25,222 @@
     }
   ],
   "redemptionTerms": {
-    "nextRedemptionDate": 1782777600000,
-    "applicationDeadline": 1776729600000,
     "frequency": "Quarterly",
     "earlyRedemptionFeeRate": 0.05
   },
   "redemptionFlow": {
     "estimatedUsdcPayout": {
-      "date": 1783036800000,
+      "date": 1795996800000,
       "approximate": true
     },
-    "timelineNote": "Redemptions are processed quarterly. You can cancel your request anytime before the application deadline.",
-    "earlyRedemptionWarning": {
-      "title": "Early Redemption",
-      "lockupEndsAt": 1801440000000
-    }
+    "timelineNote": "Redemptions are processed quarterly. You can cancel your request anytime before the application deadline."
   },
   "priceHistory": [
     {
-      "date": 1767744000000,
-      "price": 1112
+      "date": 1725062400000,
+      "price": 100.0
     },
     {
-      "date": 1768003200000,
-      "price": 1126
+      "date": 1727654400000,
+      "price": 100.0
     },
     {
-      "date": 1768348800000,
-      "price": 1121
+      "date": 1730332800000,
+      "price": 100.0
     },
     {
-      "date": 1768608000000,
-      "price": 1140
+      "date": 1732924800000,
+      "price": 100.0
     },
     {
-      "date": 1768867200000,
-      "price": 1138
+      "date": 1735603200000,
+      "price": 104.41
     },
     {
-      "date": 1769212800000,
-      "price": 1185
+      "date": 1738281600000,
+      "price": 104.57
     },
     {
-      "date": 1769472000000,
-      "price": 1172
+      "date": 1740700800000,
+      "price": 99.39
     },
     {
-      "date": 1769731200000,
-      "price": 1163
+      "date": 1743379200000,
+      "price": 94.89
     },
     {
-      "date": 1769990400000,
-      "price": 1158
+      "date": 1745971200000,
+      "price": 96.29
     },
     {
-      "date": 1770336000000,
-      "price": 1208
+      "date": 1748649600000,
+      "price": 101.16
     },
     {
-      "date": 1770595200000,
-      "price": 1248
+      "date": 1751241600000,
+      "price": 107.13
     },
     {
-      "date": 1770854400000,
-      "price": 1235
+      "date": 1753920000000,
+      "price": 114.68
     },
     {
-      "date": 1771200000000,
-      "price": 1244
+      "date": 1756598400000,
+      "price": 116.07
     },
     {
-      "date": 1771459200000,
-      "price": 1266
+      "date": 1759190400000,
+      "price": 122.3
     },
     {
-      "date": 1771718400000,
-      "price": 1272
+      "date": 1761868800000,
+      "price": 133.59
     },
     {
-      "date": 1771977600000,
-      "price": 1264
+      "date": 1764460800000,
+      "price": 132.06
     },
     {
-      "date": 1772323200000,
-      "price": 1218
+      "date": 1767139200000,
+      "price": 127.47
     },
     {
-      "date": 1772582400000,
-      "price": 1206
+      "date": 1769817600000,
+      "price": 134.79
     },
     {
-      "date": 1772841600000,
-      "price": 1215
+      "date": 1772236800000,
+      "price": 137.77
     },
     {
-      "date": 1773187200000,
-      "price": 1242
+      "date": 1774915200000,
+      "price": 130.01
     },
     {
-      "date": 1773446400000,
-      "price": 1227
-    },
-    {
-      "date": 1773705600000,
-      "price": 1218
-    },
-    {
-      "date": 1774051200000,
-      "price": 1213
-    },
-    {
-      "date": 1774310400000,
-      "price": 1222
-    },
-    {
-      "date": 1774569600000,
-      "price": 1216
-    },
-    {
-      "date": 1774828800000,
-      "price": 1251
-    },
-    {
-      "date": 1775174400000,
-      "price": 1244
-    },
-    {
-      "date": 1775433600000,
-      "price": 1221
+      "date": 1777507200000,
+      "price": 149.66
     }
   ],
   "metrics": {
     "annualizedReturn": {
-      "value": 0.087,
+      "value": 0.2436,
       "unit": "percent",
       "directional": true
+    },
+    "volatility": {
+      "value": 0.1372,
+      "unit": "percent"
+    },
+    "sharpeRatio": {
+      "value": 1.45
+    },
+    "sortinoRatio": {
+      "value": 3.11
+    },
+    "maxDrawdown": {
+      "value": -0.1034,
+      "unit": "percent",
+      "directional": true
+    },
+    "bestMonth": {
+      "value": 0.1512,
+      "unit": "percent",
+      "directional": true
+    },
+    "worstMonth": {
+      "value": -0.0616,
+      "unit": "percent",
+      "directional": true
+    },
+    "positiveMonthsRatio": {
+      "value": 0.7101,
+      "unit": "percent"
     }
   },
-  "overview": "Antarctica Global Fund PLC (AGF) is a multi-strategy, multi-manager portfolio designed to invest and actively allocate capital to a number of carefully chosen established and proven hedge fund managers. The portfolio is diversified and composed of 11 holdings within a number of strategies including: Multi-Strategy, Multi Strategy / Macro, Equity Long/Short, Fixed Income Arbitrage, and Statistical Arbitrage. EU AIFMD Compliant. AGF offers the opportunity to invest in both EUR and USD Share Classes. Accessed via the Antarctica Alpha Access Portfolio SPC (AAAP).",
-  "keyDates": [
+  "overview": "The Anchored AI Strategies Fund provides concentrated exposure to the artificial intelligence and semiconductor value chain through a long/short equity strategy. With significant allocation to semiconductors and additional positions across tech hardware, communications, and software, the fund is positioned to capture the structural growth in AI infrastructure and compute demand while maintaining risk discipline through active short positioning.",
+  "keyDatesNote": "Dates shown are indicative. Actual settlement depends on the fund's dealing calendar.",
+  "documents": [
     {
-      "label": "Subscription cutoff",
-      "date": 1774396800000,
-      "description": "Place your order before this date"
+      "kind": "fact-sheet",
+      "title": "Fund Fact Sheet",
+      "meta": "PDF • Updated Apr 2026",
+      "fileUrl": "/funds/aAIF_Fund_Factsheet_Apr2026.pdf"
     },
     {
-      "label": "Est. Token mint",
-      "date": 1776211200000,
-      "approximate": true,
-      "description": "Estimated based on fund's monthly cycle"
+      "kind": "subscription-agreement",
+      "title": "Master Minting Agreement",
+      "meta": "PDF"
+    },
+    {
+      "kind": "risk-disclosures",
+      "title": "Risk Disclosures",
+      "meta": "PDF",
+      "fileUrl": "/funds/Anchored%20Capital%20Ltd%20-%20Risk%20Disclosure%20Statement.pdf"
+    },
+    {
+      "kind": "audit-report",
+      "title": "Smart Contract Audit Report",
+      "meta": "PDF",
+      "fileUrl": ""
     }
   ],
-  "keyDatesNote": "Dates shown are indicative. Actual settlement depends on the fund's dealing calendar.",
   "fundInformation": {
     "header": {
       "label": "Underlying Fund",
-      "value": "Antarctica Global Fund PLC — EUR Class A"
+      "value": "Point72 Turion Offshore, L.P."
     },
     "rows": [
       {
-        "label": "Fund Manager",
-        "value": "Antarctica Asset Management Ltd."
+        "label": "Underlying Management Fee",
+        "value": "2% p.a."
+      },
+      {
+        "label": "Underlying Performance Fee",
+        "value": "20% (with high-water mark)"
       },
       {
         "label": "Strategy",
-        "value": "Multi-Strategy Fund of Hedge Funds"
-      },
-      {
-        "label": "Fund Class",
-        "value": "AAAP AIF Fund — Class A"
-      },
-      {
-        "label": "Access Vehicle",
-        "value": "Antarctica Alpha Access Portfolio SPC Ltd. (AAAP)"
-      },
-      {
-        "label": "Investment Manager",
-        "value": "Antarctica Asset Management Ltd. (AAM)"
-      },
-      {
-        "label": "Fund Administrator",
-        "value": "Citco Fund Services"
-      },
-      {
-        "label": "Domicile",
-        "value": "British Virgin Islands"
-      },
-      {
-        "label": "Inception",
-        "value": "April 2016"
-      },
-      {
-        "label": "Token Standard",
-        "value": "ERC-1404"
+        "value": "Long/Short Equity"
       },
       {
         "label": "Minimum Investment",
         "valueRef": "minimumInvestment"
       },
       {
-        "label": "Subscription",
-        "value": "Monthly (deadline ~5 business days before NAV date)"
+        "label": "Management Fee",
+        "value": "None"
       },
       {
-        "label": "Redemption",
-        "value": "Quarterly (95 calendar days notice) †"
+        "label": "Mint Fee",
+        "value": "0.3% one-time (at subscription)"
       },
       {
-        "label": "Lock-up",
-        "value": "1-year soft lock (5% early redemption penalty)"
-      },
-      {
-        "label": "Gate",
-        "value": "25% fund-level"
-      },
-      {
-        "label": "NAV Frequency",
+        "label": "Subscription Frequency",
         "value": "Monthly"
       },
       {
-        "label": "Underlying Fund Mgmt Fee",
-        "value": "1.5% p.a."
+        "label": "Redemption Frequency",
+        "value": "Quarterly"
       },
       {
-        "label": "Performance Fee",
-        "value": "20% (with high-water mark)"
+        "label": "Redemption Gate",
+        "value": "25% Fund Level Gate"
       },
       {
-        "label": "AAAP Management Fee",
-        "value": "0.55% p.a."
+        "label": "Lockup Period",
+        "value": "1 Year Soft Lockup with 5% Early Redemption Fee"
       },
       {
-        "label": "Anchored Management Fee",
-        "value": "1.0% p.a. (included in token price)"
+        "label": "Investment Manager",
+        "value": "Antarctica Asset Management Ltd."
+      },
+      {
+        "label": "Custodian",
+        "value": "Citco Global Custody N.V."
+      },
+      {
+        "label": "Administrator",
+        "value": "Citco Fund Administration (Cayman Islands) Limited"
       }
     ]
   },
@@ -266,16 +249,19 @@
       "year": 2026,
       "months": [
         {
-          "v": 0.0143
+          "v": 0.0574
         },
         {
-          "v": 0.0073
+          "v": 0.0221
         },
         {
-          "v": -0.0155,
+          "v": -0.0563,
           "s": "estimated"
         },
-        null,
+        {
+          "v": 0.1511,
+          "s": "estimated"
+        },
         null,
         null,
         null,
@@ -286,7 +272,7 @@
         null
       ],
       "ytd": {
-        "v": 0.0058,
+        "v": 0.174,
         "s": "estimated"
       }
     },
@@ -338,37 +324,48 @@
       "year": 2024,
       "months": [
         {
-          "v": 0.0244
+          "v": 0.0244,
+          "s": "simulated"
         },
         {
-          "v": 0.0384
+          "v": 0.0384,
+          "s": "simulated"
         },
         {
-          "v": 0.0194
+          "v": 0.0194,
+          "s": "simulated"
         },
         {
-          "v": -0.0216
+          "v": -0.0216,
+          "s": "simulated"
         },
         {
-          "v": 0.0364
+          "v": 0.0364,
+          "s": "simulated"
         },
         {
-          "v": 0.0784
+          "v": 0.0784,
+          "s": "simulated"
         },
         {
-          "v": -0.0226
+          "v": -0.0226,
+          "s": "simulated"
         },
         {
-          "v": 0.0194
+          "v": 0.0194,
+          "s": "simulated"
         },
         {
-          "v": 0.0054
+          "v": 0.0054,
+          "s": "simulated"
         },
         {
-          "v": 0.0308
+          "v": 0.0308,
+          "s": "simulated"
         },
         {
-          "v": 0.0486
+          "v": 0.0486,
+          "s": "simulated"
         },
         {
           "v": 0.0441
@@ -406,26 +403,33 @@
           "s": "simulated"
         },
         {
-          "v": -0.0006
+          "v": -0.0006,
+          "s": "simulated"
         },
         {
-          "v": 0.0174
+          "v": 0.0174,
+          "s": "simulated"
         },
         {
-          "v": -0.0156
+          "v": -0.0156,
+          "s": "simulated"
         },
         {
-          "v": 0.0124
+          "v": 0.0124,
+          "s": "simulated"
         },
         {
-          "v": 0.0584
+          "v": 0.0584,
+          "s": "simulated"
         },
         {
-          "v": 0.0384
+          "v": 0.0384,
+          "s": "simulated"
         }
       ],
       "ytd": {
-        "v": 0.2694
+        "v": 0.2694,
+        "s": "simulated"
       }
     },
     {
@@ -581,28 +585,24 @@
   ],
   "growthChart": {
     "title": "Hypothetical Growth of $1,000",
-    "subtitle": "April 2016 - April 2026. Assumes $1,000 invested at inception with all dividends reinvested.",
-    "disclaimer": "Performance prior to aAIF token launch reflects the underlying Antarctica Global Fund. Past performance is not indicative of future results.",
-    "startYear": 2016,
-    "startMonth": 4,
-    "baseAmount": 1000,
+    "subtitle": "August 2020 - April 2026. Assumes $1,000 invested at inception with all dividends reinvested.",
+    "disclaimer": "Past performance is not indicative of future results.",
+    "startYear": 2020,
+    "startMonth": 8,
+    "baseAmount": 1000.0,
     "benchmarks": [
       {
-        "name": "AFG Class A",
+        "name": "Point72 Turion Offshore, L.P.",
         "color": "#E7C75C",
         "lineWidth": 2.5,
         "dashed": false,
         "returns": [
-          0.0065, 0.0217, -0.0014, 0.0063, 0.0095, 0.0136, 0.002, 0.0159, 0.0088, 0.0091, 0.0075, 0.0091, 0.0018,
-          0.0082, -0.0027, 0.0145, 0.0119, 0.0078, 0.0187, -0.0011, -0.0025, 0.0373, -0.0069, 0.0008, 0.0116, 0.0237,
-          0.0048, 0.0087, 0.0155, 0.0064, -0.0134, -0.0094, -0.0007, 0.0278, 0.0065, 0.0121, 0.0077, 0.0107, 0.0277,
-          0.0087, 0.0136, -0.0158, 0.0117, 0.0083, 0.0128, 0.0016, 0.0164, 0.0214, 0.0215, 0.015, 0.0064, 0.0191,
-          0.0183, 0.0013, 0.0089, 0.019, 0.0314, -0.0142, 0.0237, 0.0088, 0.0103, -0.0006, -0.0078, 0.0009, 0.0068,
-          0.0146, 0.0001, 0.002, 0.0096, -0.0013, 0.0072, 0.0236, 0.0182, -0.0012, 0.0167, 0.0027, 0.0143, 0.0098,
-          0.0092, -0.0023, 0.0132, 0.0095, 0.0023, 0.0046, 0.0031, 0.0077, 0.0059, 0.0024, 0.0098, 0.0048, 0.0077,
-          0.0105, 0.0099, 0.0125, 0.0028, 0.0121, -0.0017, 0.0052, 0.0084, -0.0011, 0.008, 0.0035, 0.0076, 0.0178,
-          0.0118, 0.017, -0.0081, -0.0119, 0.0079, 0.0152, 0.0081, 0.0071, 0.0052, 0.0058, 0.0104, 0.0035, 0.0096,
-          0.0146, 0.0082, -0.0161, -0.0005
+          0.0284, -0.0156, -0.0076, 0.0754, 0.0454, 0.0004, 0.0374, 0.0044, -0.0176, 0.0094, 0.0124, 0.0224, 0.0324,
+          -0.0026, 0.0514, 0.0604, 0.0524, -0.0616, -0.0236, 0.0474, -0.0396, 0.0034, -0.0306, 0.0814, 0.0104, -0.0386,
+          0.0164, 0.0594, -0.0306, 0.0414, -0.0226, 0.0564, 0.0024, 0.0474, 0.0094, -0.0006, 0.0174, -0.0156, 0.0124,
+          0.0584, 0.0384, 0.0244, 0.0384, 0.0194, -0.0216, 0.0364, 0.0784, -0.0226, 0.0194, 0.0054, 0.0308, 0.0486,
+          0.0441, 0.0015, -0.0495, -0.0453, 0.0148, 0.0506, 0.059, 0.0705, 0.0121, 0.0537, 0.0923, -0.0115, -0.0348,
+          0.0574, 0.0221, -0.0563, 0.1511
         ]
       },
       {
@@ -611,16 +611,13 @@
         "lineWidth": 1.2,
         "dashed": true,
         "returns": [
-          -0.0004, -0.0028, 0.0002, -0.0048, 0.0117, 0.0302, -0.0033, -0.0043, -0.0013, 0.0132, 0.0272, 0.0012, 0.0082,
-          -0.0018, 0.0062, 0.0142, -0.0038, 0.0222, 0.0092, 0.0162, 0.0052, 0.0482, 0.0332, -0.0268, 0.0002, 0.0142,
-          -0.0003, 0.0272, 0.0232, -0.0118, -0.0758, 0.0102, 0.0042, 0.0682, 0.0252, 0.0112, 0.0312, 0.0102, -0.0238,
-          0.0062, -0.0248, 0.0142, 0.0182, 0.0272, 0.0252, -0.0098, -0.0938, -0.1388, 0.1042, 0.0442, 0.0222, 0.0452,
-          0.0592, -0.0378, 0.0022, 0.1182, 0.0372, -0.0088, 0.0252, 0.0272, 0.0422, 0.0062, 0.0102, 0.0142, 0.0172,
-          -0.0468, 0.0482, 0.0152, 0.0372, -0.0548, -0.0318, 0.0212, -0.0158, -0.0048, -0.0718, -0.0738, 0.0342,
-          -0.0998, -0.0598, 0.0662, 0.0442, 0.0662, 0.0002, 0.0272, 0.0082, -0.0038, 0.0502, 0.0292, -0.0218, 0.0382,
-          -0.0058, 0.0892, 0.0422, 0.0082, 0.0392, 0.0292, -0.0028, 0.0382, 0.0192, 0.0122, 0.0202, -0.0058, -0.0248,
-          0.0432, 0.0252, 0.0312, 0.0082, -0.0118, -0.0048, -0.0088, 0.0242, -0.0098, 0.0212, -0.0258, 0.0002, 0.0352,
-          0.0222, 0.0252, -0.0138, -0.0488, 0.0151
+          0.066814, -0.034499, -0.030675, 0.127862, 0.042397, -0.009939, 0.025624, 0.033272, 0.04654, 0.014405,
+          0.014905, 0.017913, 0.024888, -0.041521, 0.056641, -0.021913, 0.04274, -0.052911, -0.025291, 0.027443,
+          -0.083073, 0.000757, -0.086622, 0.079396, -0.041808, -0.09296, 0.071813, 0.06953, -0.042467, 0.070756,
+          -0.024039, 0.0309, 0.017529, -0.009983, 0.060478, 0.033593, -0.023886, -0.043138, -0.029016, 0.093752,
+          0.049094, 0.012, 0.042398, 0.032135, -0.037145, 0.044652, 0.020348, 0.017622, 0.02643, 0.018314, -0.019837,
+          0.045887, -0.026061, 0.035289, -0.007197, -0.044521, 0.008887, 0.059192, 0.043153, 0.012873, 0.026085,
+          0.032146, 0.020025, 0.002825, 0.008083, 0.022379, 0.007325, -0.063695, 0.095918
         ]
       },
       {
@@ -629,16 +626,13 @@
         "lineWidth": 1.2,
         "dashed": true,
         "returns": [
-          0.0165, -0.0385, 0.0395, 0.0005, -0.0055, 0.0495, -0.0145, -0.0065, -0.0035, -0.0075, 0.0275, -0.0145, 0.0235,
-          0.0165, 0.0005, 0.0025, -0.0035, 0.0005, 0.0005, 0.0005, -0.0235, 0.0185, 0.0345, -0.0315, -0.0055, 0.0295,
-          -0.0025, 0.0105, 0.0225, -0.0145, -0.0775, -0.0195, 0.0015, 0.0565, 0.0255, -0.0005, 0.0355, 0.0265, -0.0685,
-          0.0085, -0.0285, 0.0255, 0.0105, 0.0215, 0.0185, -0.0345, -0.0905, -0.1515, 0.0655, 0.0305, 0.0225, -0.0025,
-          0.0285, -0.0195, -0.0035, 0.1305, 0.0255, -0.0145, 0.0245, 0.0315, 0.0155, 0.0105, 0.0305, 0.0025, 0.0155,
-          -0.0315, 0.0395, 0.0015, 0.0495, -0.0425, -0.0335, 0.0025, -0.0005, 0.0035, -0.0785, -0.0695, 0.0405, -0.0655,
-          -0.0215, 0.0645, 0.0265, 0.0605, 0.0085, 0.0105, 0.0155, 0.0185, 0.0305, 0.0185, -0.0195, 0.0265, 0.0085,
-          0.0585, 0.0295, -0.0165, 0.0145, 0.0295, 0.0115, 0.0305, 0.0075, 0.0045, 0.0165, 0.0115, -0.0025, 0.0145,
-          -0.0005, 0.0435, 0.0015, -0.0205, -0.0065, -0.0235, 0.0275, -0.0045, 0.0175, -0.0195, -0.0025, 0.0145, 0.0005,
-          0.0515, -0.0095, 0.0289, -0.0135
+          0.041144, -0.033321, -0.056396, 0.170133, 0.047073, -0.014482, 0.024448, 0.030893, 0.045443, 0.041682,
+          -0.013604, 0.018486, 0.015112, -0.047781, 0.045044, -0.051576, 0.066041, -0.045758, -0.028241, -0.001037,
+          -0.057512, 0.00748, -0.099475, 0.049495, -0.062298, -0.086964, 0.071671, 0.113504, 0.000125, 0.086747,
+          -0.006202, 0.023704, 0.041534, -0.058668, 0.047892, 0.030665, -0.03967, -0.039736, -0.037342, 0.098694,
+          0.049955, -0.00117, 0.015567, 0.03738, -0.018938, 0.048437, -0.022467, 0.021471, 0.039421, 0.00386, -0.058919,
+          -0.016845, -0.024444, 0.068853, 0.036737, -0.003012, 0.04373, 0.045606, 0.020577, -0.017802, 0.034422,
+          0.019836, 0.007397, 0.014655, 0.039006, 0.044488, 0.032721, -0.099045, 0.070942
         ]
       },
       {
@@ -647,16 +641,13 @@
         "lineWidth": 1.2,
         "dashed": true,
         "returns": [
-          0.0028, 0.0006, -0.0001, 0.0064, -0.0023, 0.0084, 0.0034, -0.0068, 0.0032, 0.0019, 0.0071, -0.0053, 0.0012,
-          0.0072, -0.0003, 0.0042, 0.0076, -0.0043, -0.0011, 0.002, -0.0033, -0.0098, 0.0074, -0.0061, 0.0052, 0.0072,
-          -0.001, 0.0004, 0.0066, 0.006, -0.0083, 0.0062, -0.0044, 0.0122, 0.0012, -0.0016, 0.0059, 0.0122, -0.0023,
-          0.0024, 0.0042, 0.0062, -0.0013, -0.0018, 0.003, 0.0182, 0.0112, 0.0067, -0.0168, 0.0052, 0.0065, 0.0152,
-          -0.0079, -0.0048, 0.0072, 0.0097, -0.0023, -0.007, 0.0094, -0.0126, 0.0081, 0.0035, -0.0089, -0.001, -0.0018,
-          -0.0085, 0.0153, 0.0031, -0.0037, 0, -0.0103, -0.0276, 0.004, -0.004, -0.0155, 0.0027, -0.027, -0.043, 0.0034,
-          0.0366, -0.0044, 0.0308, -0.0011, 0.0074, 0.0042, -0.0114, 0.0023, -0.0033, 0.0067, -0.0245, -0.0029, 0.0444,
-          0.004, -0.0032, 0.0106, 0.0094, -0.0249, -0.0016, 0.0097, -0.0038, 0.0147, 0.053, -0.0251, 0.0112, -0.0089,
-          0.0055, -0.0021, 0.0006, 0.0004, -0.0098, 0.0105, -0.0018, 0.0074, -0.0146, -0.004, 0.0164, 0.0049, 0.0055,
-          0.0084, -0.0001, 0.0117
+          -0.012128, 0.000169, -0.007873, 0.009044, -0.000592, -0.007446, -0.016793, -0.012398, 0.005092, 0.000524,
+          0.002706, 0.01393, -0.003091, -0.005943, -0.006672, -0.001047, -0.003842, -0.019898, -0.020034, -0.031669,
+          -0.030443, 0.012248, -0.029578, 0.029886, -0.023638, -0.051865, -0.011625, 0.029616, -0.01071, 0.031859,
+          -0.029476, 0.025842, 0.003212, -0.02391, 0.003895, -0.003982, -0.017323, -0.019088, -0.015419, 0.027649,
+          0.04309, -0.011889, -0.007444, 0.006164, -0.026649, 0.012483, 0.005698, 0.012877, 0.01963, 0.012469, -0.02867,
+          0.006187, -0.025806, 0.007864, 0.018994, -0.005239, -0.001317, -0.005071, 0.007136, -0.003543, 0.010259,
+          0.006133, 0.004697, 0.002785, -0.007737, 0.0009, 0.012684, -0.028205, 0.010656
         ]
       },
       {
@@ -665,16 +656,13 @@
         "lineWidth": 1.5,
         "dashed": true,
         "returns": [
-          0.0037, 0.0163, 0.0044, 0.0366, -0.0002, 0.0003, 0.0188, 0.0366, 0.0192, 0.0189, 0.0382, 0.0006, 0.0101,
-          0.0126, 0.0058, 0.0203, 0.0015, 0.0203, 0.0234, 0.0291, 0.0108, 0.0572, -0.0367, -0.0259, 0.0037, 0.0226,
-          0.0058, 0.037, 0.0319, 0.0053, -0.0684, 0.0189, -0.0908, 0.0794, 0.0307, 0.0189, 0.0403, -0.0648, 0.0699,
-          0.0141, -0.0171, 0.0182, 0.0214, 0.035, 0.0296, -0.0006, -0.0831, -0.1241, 0.1278, 0.0455, 0.0192, 0.0561,
-          0.0711, -0.0382, -0.0018, 0.1085, 0.0372, -0.0101, 0.0271, 0.0434, 0.0534, 0.0065, 0.0232, 0.0241, 0.03,
-          -0.0466, 0.0675, -0.0073, 0.0454, -0.056, -0.0304, 0.0368, -0.0878, 0.0012, -0.0828, 0.0919, -0.0414, -0.0936,
-          0.0803, 0.055, -0.0576, 0.0628, -0.0251, 0.0361, 0.0156, 0.0035, 0.0635, 0.0317, -0.0167, -0.0477, -0.0211,
-          0.0899, 0.0464, 0.0169, 0.0526, 0.0318, -0.041, 0.049, 0.0354, 0.0123, 0.0239, 0.0211, -0.0089, 0.0583,
-          -0.024, 0.0277, -0.0132, -0.0567, 0.0097, -0.0073, 0.0361, -0.0008, 0.0255, -0.0155, 0.0045, 0.0387, 0.026,
-          0.028, -0.012, -0.044, 0.0172
+          0.072419, -0.059735, -0.00864, 0.112659, 0.032355, -0.011137, 0.026091, 0.042872, 0.051988, 0.005487,
+          0.018218, 0.026762, 0.025962, -0.011951, 0.033644, -0.002336, 0.037339, -0.070146, -0.01065, 0.036128,
+          -0.090496, 0.006367, -0.05928, 0.05587, -0.017585, -0.116333, 0.087974, 0.032058, -0.046352, 0.06018,
+          -0.024694, 0.03508, 0.014642, 0.008627, 0.058241, 0.029627, -0.038523, -0.026706, -0.039804, 0.107343,
+          0.046167, 0.025397, 0.040448, 0.032532, -0.029383, 0.034814, 0.03467, -0.000253, 0.034676, 0.015893, 0.01219,
+          0.038611, -0.010202, 0.011672, -0.014242, -0.062736, -0.009986, 0.069948, 0.044214, 0.034921, 0.011211,
+          0.028395, 0.029577, 0.0013, 0.011804, 0.001312, -0.008668, -0.074144, 0.125019
         ]
       },
       {
@@ -683,16 +671,13 @@
         "lineWidth": 1.5,
         "dashed": true,
         "returns": [
-          -0.0183, 0.0201, -0.0014, 0.0659, -0.0014, 0.0108, 0.0139, 0.0276, 0.0158, 0.0442, 0.0378, 0.0163, 0.0227,
-          0.0271, -0.0074, 0.042, 0.0171, 0.0084, 0.0361, 0.0251, 0.0058, 0.0746, 0.0092, -0.0268, 0.0016, 0.055,
-          0.0006, 0.0197, 0.0574, 0, -0.089, 0.0096, -0.0937, 0.0922, 0.0361, 0.0223, 0.0451, -0.0768, 0.0754, 0.0231,
-          -0.0205, 0.0056, 0.0378, 0.0467, 0.0361, 0.0206, -0.0652, -0.102, 0.1535, 0.0646, 0.0604, 0.064, 0.0983,
-          -0.0524, 0.0031, 0.1192, 0.0567, 0.0143, 0.0013, 0.0053, 0.0553, -0.0156, 0.0565, 0.0134, 0.0411, -0.0519,
-          0.0743, 0.0095, 0.0008, -0.0887, -0.0329, 0.0353, -0.1331, -0.0191, -0.0883, 0.1234, -0.0476, -0.1052, 0.0383,
-          0.0457, -0.0814, 0.108, -0.0093, 0.0677, 0.0015, 0.0584, 0.0661, 0.0393, -0.0206, -0.049, -0.0017, 0.1093,
-          0.0565, 0.012, 0.0624, 0.0134, -0.0431, 0.0701, 0.06, -0.0063, 0.0077, 0.0268, -0.0052, 0.0637, -0.0183,
-          0.019, -0.0383, -0.0823, 0.011, -0.0053, 0.0414, 0.0022, 0.0297, -0.0198, 0.0107, 0.0467, 0.0322, 0.0367,
-          -0.0163, -0.0538, 0.0173
+          0.088443, -0.066869, -0.000181, 0.118613, 0.05591, 0.014154, 0.009307, -0.004064, 0.062712, -0.015322,
+          0.044488, 0.021747, 0.031134, -0.005407, 0.029951, -0.000434, 0.009896, -0.119808, -0.005515, 0.034662,
+          -0.129481, -0.016499, -0.043154, 0.067462, -0.020094, -0.128984, 0.049816, 0.011161, -0.067687, 0.110374,
+          -0.019513, 0.072573, 0.000382, 0.061269, 0.062596, 0.038348, -0.050711, -0.027322, -0.043596, 0.127173,
+          0.053364, 0.029578, 0.035034, 0.02392, -0.027569, 0.050673, 0.05961, -0.021132, 0.020494, 0.022919, 0.022021,
+          0.037776, 0.026218, -0.004796, -0.039748, -0.080876, 0.003461, 0.099571, 0.060673, 0.04118, 0.01645, 0.047937,
+          0.05519, -0.015143, 0.009733, -0.005564, -0.033826, -0.075871, 0.185611
         ]
       },
       {
@@ -701,16 +686,13 @@
         "lineWidth": 1.5,
         "dashed": true,
         "returns": [
-          0.0052, 0.007, 0.0087, 0.025, -0.002, -0.0005, 0.0224, 0.0553, 0.0331, 0.0057, 0.0468, -0.0069, 0.0131,
-          0.0035, 0.0165, 0.0251, 0.0028, 0.0215, 0.0443, 0.039, 0.018, 0.0576, -0.0434, -0.0358, 0.0027, 0.011,
-          -0.0059, 0.0474, 0.0219, 0.0191, -0.0512, 0.0172, -0.0876, 0.0718, 0.0348, 0.0007, 0.0258, -0.0667, 0.0716,
-          0.0102, -0.0164, 0.0181, 0.005, 0.0377, 0.0173, -0.0097, -0.0998, -0.1367, 0.111, 0.0438, 0.0171, 0.0246,
-          0.0775, -0.0216, -0.0044, 0.1186, 0.0327, -0.0198, 0.0318, 0.0638, 0.027, 0.0132, -0.0006, 0.0127, 0.0137,
-          -0.0415, 0.0557, -0.0373, 0.0576, -0.0336, -0.0344, 0.0222, -0.0487, 0.0002, -0.0639, 0.0668, -0.0411,
-          -0.0869, 0.1397, 0.0563, -0.004, 0.0273, -0.0408, 0.0183, 0.025, -0.0347, 0.0461, 0.0328, -0.0233, -0.0345,
-          -0.0125, 0.0837, 0.048, 0.0124, 0.0224, 0.021, -0.0509, 0.0236, 0.0141, 0.0447, 0.014, 0.0186, -0.0111,
-          0.0735, -0.0513, 0.0471, 0.0101, -0.0408, 0.0118, -0.0018, 0.0377, -0.0048, 0.0157, -0.0143, -0.002, 0.0322,
-          0.0202, 0.0232, -0.0103, -0.0418, 0.0125
+          0.084211, -0.051648, -0.024743, 0.128625, 0.023273, -0.020383, 0.031677, 0.0692, 0.024249, 0.019324,
+          -0.002769, 0.014568, 0.014894, -0.018553, 0.029357, -0.02569, 0.041232, -0.044384, -0.0192, 0.023562,
+          -0.054044, 0.007149, -0.051555, 0.04268, -0.017102, -0.110208, 0.143994, 0.045196, -0.034931, 0.025065,
+          -0.034174, 0.013933, 0.024764, -0.029468, 0.039714, 0.030566, -0.031371, -0.024439, -0.032527, 0.091696,
+          0.064973, 0.011141, 0.02682, 0.017271, -0.039382, 0.011681, 0.011181, 0.03759, 0.02399, 0.018043, -0.004694,
+          0.066397, -0.042717, 0.03611, -0.015799, -0.051482, -0.03536, 0.053762, 0.03665, 0.024707, 0.014319, 0.015422,
+          0.028447, 0.003228, 0.020843, 0.003726, 0.001748, -0.077816, 0.089979
         ]
       }
     ]
@@ -719,42 +701,24 @@
     "keyReturns": [
       {
         "label": "MTD",
-        "value": -0.0348,
+        "value": 0.1512,
         "unit": "percent",
         "directional": true
       },
       {
         "label": "YTD",
-        "value": 0.0006,
+        "value": 0.1742,
         "unit": "percent",
         "directional": true
       },
       {
-        "label": "1 Year",
-        "value": 0.0682,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "3 Years",
-        "value": 0.2759,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "5 Years",
-        "value": 0.5283,
-        "unit": "percent",
-        "directional": true
-      },
-      {
-        "label": "Since Inception",
-        "value": 1.5916,
+        "label": "Annualized",
+        "value": 0.2436,
         "unit": "percent",
         "directional": true
       }
     ],
-    "keyReturnsAsOf": 1772236800000,
+    "keyReturnsAsOf": 1777507200000,
     "riskStatistics": [
       {
         "key": "annualizedReturn",
@@ -763,17 +727,17 @@
       {
         "key": "volatility",
         "label": "Annualized Volatility",
-        "dotted": true
+        "tooltip": "The annualized volatility of returns. Indicates the risk or uncertainty in the asset's returns."
       },
       {
         "key": "sharpeRatio",
         "label": "Sharpe Ratio",
-        "dotted": true
+        "tooltip": "The Sharpe ratio measures risk-adjusted return. Higher values indicate better risk-adjusted performance."
       },
       {
         "key": "sortinoRatio",
         "label": "Sortino Ratio",
-        "dotted": true
+        "tooltip": "The Sortino ratio measures risk-adjusted return, focusing only on downside risk. Higher values indicate better downside risk-adjusted performance."
       },
       {
         "key": "maxDrawdown",
@@ -796,153 +760,302 @@
       "selfHeader": "aAIF",
       "competitors": [
         {
-          "header": "HFRI FoF*",
-          "values": {
-            "annualizedReturn": 0.0372,
-            "volatility": 0.0512,
-            "sharpeRatio": 0.42,
-            "maxDrawdown": -0.0714,
-            "correlation": 0.47
-          }
+          "header": "HFRI FoF*"
         },
         {
-          "header": "MSCI World*",
-          "values": {
-            "annualizedReturn": 0.0987,
-            "volatility": 0.164,
-            "sharpeRatio": 0.51,
-            "maxDrawdown": -0.264,
-            "correlation": 0.18
-          }
+          "header": "MSCI World*"
         },
         {
-          "header": "Barclays Bond*",
-          "values": {
-            "annualizedReturn": 0.0112,
-            "volatility": 0.0364,
-            "sharpeRatio": -0.11,
-            "maxDrawdown": -0.1718,
-            "correlation": 0.05
-          }
+          "header": "Barclays Bond*"
         }
       ],
       "rows": [
         {
           "key": "annualizedReturn",
-          "label": "Annualized Return"
+          "label": "Annualized Return",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": 0.3129,
+              "values": {
+                "HFRI FoF*": 0.116,
+                "MSCI World*": 0.1801,
+                "Barclays Bond*": 0.0346
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": 0.2481,
+              "values": {
+                "HFRI FoF*": 0.0661,
+                "MSCI World*": 0.0966,
+                "Barclays Bond*": 0.0018
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": 0.2436,
+              "values": {
+                "HFRI FoF*": 0.0938,
+                "MSCI World*": 0.1303,
+                "Barclays Bond*": -0.0034
+              }
+            }
+          ]
         },
         {
           "key": "volatility",
-          "label": "Annualized Volatility"
+          "label": "Volatility",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": 0.1464,
+              "values": {
+                "HFRI FoF*": 0.0532,
+                "MSCI World*": 0.1264,
+                "Barclays Bond*": 0.0563
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": 0.1416,
+              "values": {
+                "HFRI FoF*": 0.0537,
+                "MSCI World*": 0.1511,
+                "Barclays Bond*": 0.0638
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": 0.1372,
+              "values": {
+                "HFRI FoF*": 0.0597,
+                "MSCI World*": 0.155,
+                "Barclays Bond*": 0.0604
+              }
+            }
+          ]
         },
         {
           "key": "sharpeRatio",
-          "label": "Sharpe Ratio"
+          "label": "Sharpe Ratio",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": 1.63,
+              "values": {
+                "HFRI FoF*": 1.22,
+                "MSCI World*": 1.01,
+                "Barclays Bond*": -0.19
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": 1.4,
+              "values": {
+                "HFRI FoF*": 0.58,
+                "MSCI World*": 0.46,
+                "Barclays Bond*": -0.5
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": 1.45,
+              "values": {
+                "HFRI FoF*": 1.01,
+                "MSCI World*": 0.67,
+                "Barclays Bond*": -0.55
+              }
+            }
+          ]
         },
         {
-          "key": "maxDrawdown",
-          "label": "Max Drawdown"
+          "key": "cumulativeDrawdown",
+          "label": "Cumulative Drawdown",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": -0.0926,
+              "values": {
+                "HFRI FoF*": -0.0295,
+                "MSCI World*": -0.0965,
+                "Barclays Bond*": -0.051
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": -0.1034,
+              "values": {
+                "HFRI FoF*": -0.0714,
+                "MSCI World*": -0.264,
+                "Barclays Bond*": -0.1659
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": -0.1034,
+              "values": {
+                "HFRI FoF*": -0.0714,
+                "MSCI World*": -0.264,
+                "Barclays Bond*": -0.1702
+              }
+            }
+          ]
+        },
+        {
+          "key": "alpha",
+          "label": "Alpha",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.1143,
+                "MSCI World*": 0.1734,
+                "Barclays Bond*": 0.3079
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.1391,
+                "MSCI World*": 0.1787,
+                "Barclays Bond*": 0.2559
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.1129,
+                "MSCI World*": 0.1573,
+                "Barclays Bond*": 0.2564
+              }
+            }
+          ]
+        },
+        {
+          "key": "beta",
+          "label": "Beta",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 1.58,
+                "MSCI World*": 0.71,
+                "Barclays Bond*": 0.39
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 1.56,
+                "MSCI World*": 0.65,
+                "Barclays Bond*": 0.86
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 1.33,
+                "MSCI World*": 0.61,
+                "Barclays Bond*": 0.85
+              }
+            }
+          ]
         },
         {
           "key": "correlation",
-          "label": "Correlation to aAIF",
-          "selfValue": 1
+          "label": "Correlation",
+          "periods": [
+            {
+              "label": "3 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.58,
+                "MSCI World*": 0.62,
+                "Barclays Bond*": 0.15
+              }
+            },
+            {
+              "label": "5 Year",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.59,
+                "MSCI World*": 0.7,
+                "Barclays Bond*": 0.39
+              }
+            },
+            {
+              "label": "Since Inception",
+              "selfValue": null,
+              "values": {
+                "HFRI FoF*": 0.58,
+                "MSCI World*": 0.69,
+                "Barclays Bond*": 0.38
+              }
+            }
+          ]
         }
       ]
     },
     "benchmarkDisclaimer": "*HFRI FoF = HFRI Fund of Funds Composite Index. MSCI = MSCI World Index. Barclays = Barclays U.S. Aggregate Bond Index.",
-    "chartDisclaimer": "Fund performance information (including data and charts) is calculated based on the net asset value (NAV) to NAV prices of respective funds, with dividends reinvested.",
+    "chartDisclaimer": "Performance is calculated based on the net asset value (NAV) of the underlying fund, net of fees.",
     "monthlyReturnsLegend": "Gray = Simulated Net Return | Normal = Actual Net Return | * = Estimated Net Return",
     "monthlyReturnsDisclaimer": "The figures above represent past performance. Past performance is not a reliable indicator of future results."
   },
   "allocations": {
-    "asOf": 1767225600000,
+    "asOf": 1777507200000,
+    "kind": "sector",
     "strategies": [
       {
-        "name": "Multi Strategy",
-        "holdings": 7,
-        "allocation": 0.6053,
+        "name": "Semiconductors",
+        "allocation": 0.571,
         "color": "#E7C75C"
       },
       {
-        "name": "Long/Short Equity",
-        "holdings": 4,
-        "allocation": 0.252,
+        "name": "Tech Hardware & Components",
+        "allocation": 0.128,
         "color": "#CE5D28"
       },
       {
-        "name": "Fixed Income Arbitrage",
-        "holdings": 1,
-        "allocation": 0.0701,
-        "color": "#59CBB6"
-      },
-      {
-        "name": "Global Macro",
-        "holdings": 3,
-        "allocation": 0.0506,
+        "name": "Communications",
+        "allocation": 0.109,
         "color": "#E06060"
       },
       {
-        "name": "Multi-Strategy Macro",
-        "holdings": 1,
-        "allocation": 0.022,
+        "name": "Other",
+        "allocation": 0.073,
+        "color": "#59CBB6"
+      },
+      {
+        "name": "Software",
+        "allocation": 0.066,
         "color": "#5B8DEF"
+      },
+      {
+        "name": "Tech Services",
+        "allocation": 0.023,
+        "color": "#9B59B6"
+      },
+      {
+        "name": "Interactive Media & Services",
+        "allocation": 0.016,
+        "color": "#1D9E75"
+      },
+      {
+        "name": "Retail, Consumer & Building Products",
+        "allocation": 0.014,
+        "color": "#547E70"
       }
     ],
-    "topHoldings": [
-      {
-        "name": "Millennium International, Ltd",
-        "allocation": 0.2027
-      },
-      {
-        "name": "Point72 Capital International (JPY)",
-        "allocation": 0.1612
-      },
-      {
-        "name": "Torus Feeder 3 Ltd - Half Vol",
-        "allocation": 0.071
-      },
-      {
-        "name": "LMR Alpha Rates Trading Fund",
-        "allocation": 0.0701
-      },
-      {
-        "name": "Jain Global Offshore Fund",
-        "allocation": 0.0576
-      },
-      {
-        "name": "Point72 Capital International (USD)",
-        "allocation": 0.0484
-      }
-    ],
-    "remainingCount": 10,
-    "remainingAllocation": 0.389,
+    "topHoldings": [],
+    "remainingCount": 0,
+    "remainingAllocation": 1.0,
     "disclaimer": "Allocations are as of the last reported month-end and are subject to change without notice."
-  },
-  "documents": [
-    {
-      "kind": "fact-sheet",
-      "title": "Fund Fact Sheet",
-      "meta": "PDF • Updated Mar 2026",
-      "fileUrl": ""
-    },
-    {
-      "kind": "subscription-agreement",
-      "title": "Master Minting Agreement",
-      "meta": "PDF",
-      "fileUrl": ""
-    },
-    {
-      "kind": "risk-disclosures",
-      "title": "Risk Disclosures",
-      "meta": "PDF • Important information",
-      "fileUrl": ""
-    },
-    {
-      "kind": "audit-report",
-      "title": "Smart Contract Audit Report",
-      "meta": "PDF • Sherlock",
-      "fileUrl": ""
-    }
-  ]
+  }
 }
