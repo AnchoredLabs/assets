@@ -5,13 +5,10 @@
   "category": "Multi-Strategy",
   "description": "Diversified fund of top-tier funds — consistent returns with ultra-low volatility and drawdown.",
   "badgeColor": "#1D9E75",
-  "heroImage": "/funds/aDHF.jpg",
   "tokenPrice": 121.57,
   "tokenPriceUpdatedAt": 1774915200000,
   "minimumInvestment": 100000,
   "subscriptionWindow": {
-    "start": 0,
-    "end": 1786579200000,
     "frequency": "Monthly"
   },
   "subscribeCurrencies": [
