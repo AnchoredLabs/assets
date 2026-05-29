@@ -2,7 +2,7 @@
   "ticker": "aLSF",
   "abbreviation": "LSF",
   "name": "Anchored Liquid Strategies Fund",
-  "category": "High Liquidity",
+  "category": "Monthly Liquidity",
   "description": "Multi-strategy fund of funds with monthly liquidity — diversified across statistical arbitrage, L/S equity, and macro.",
   "badgeColor": "#CE5D28",
   "tokenPrice": 102.62,
