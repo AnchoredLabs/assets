@@ -7,7 +7,7 @@
   "badgeColor": "#CE5D28",
   "tokenPrice": 149.66,
   "tokenPriceUpdatedAt": 1777507200000,
-  "minimumInvestment": 100000,
+  "minimumInvestment": 50000,
   "subscriptionWindow": {
     "frequency": "Monthly"
   },
